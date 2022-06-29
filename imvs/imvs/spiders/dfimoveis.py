@@ -2,8 +2,7 @@ from loguru import logger as log
 from urllib.parse import urlparse
 
 import scrapy
-from scrapy.linkextractors import LinkExtractor
-from scrapy.spiders import CrawlSpider, Rule
+
 from scrapy.exceptions import CloseSpider
 
 from scrapy.shell import inspect_response
@@ -11,40 +10,51 @@ from scrapy.shell import inspect_response
 from ..items import DefaultItem
 
 
-class DfimoveisSpider(CrawlSpider):
+class DfimoveisSpider(scrapy.Spider):
     name = 'dfimoveis'
-    log.info(f'Crawler iniciado: {name}')
 
-    page = 1
-    keyword = 'kitnet'
-    #allowed_domains = ['https://www.dfimoveis.com.br/']
-    url = f'https://www.dfimoveis.com.br/venda/df/todos/{keyword}?pagina={page}'
+    def __init__(self, filtro=None, **kwargs):
+        super().__init__(**kwargs)
+        log.info(f'Crawler iniciado: {self.name}')
 
-    cards_imoveis = '//div[@class="property js-propriedade"]'
-    cod_imovel = '(//input[@id="idDoImovel"])[1]/@value'
-    data_publicacao = ''
-    anunciante = '(//img[@id="LogoDoAnunciante"])[1]/@alt'
-    creci = '(//input[@id="creciDoAnunciante"])[1]/@value'
-    atualizacao = '//*[contains(text(), " Última Atualização:")]/small/text()'
-    endereco = '(//input[@id="enderecoDoImovel"])[1]/@value'
-    bairro = '//*[contains(text(), "Bairro:")]/small/text()'
-    cidade = '//*[contains(text(), "Cidade:")]/small/text()'
-    quartos = '//*[contains(text(), "Quartos:")]/small/text()'
-    suites = '//*[contains(text(), "Suítes:")]/small/text()'
-    garagem = '//*[contains(text(), "Garagens:")]/small/text()'
-    valor_imovel = '//*[contains(text(), "R$:")]/small/text()'
-    area_privativa = '(//*[contains(text(), "Área Útil:")]/small/text())[1]'
-    area_total = '//*[contains(text(), "Área Total:")]/small/text()'
-    valor_condominio = '(//*[contains(text(), "Condomínio R$:")]/small/text())[1]'
-    valor_mt2 = '(//*[contains(text(), "Valor R$ /m²:")]/small/text())[1]'
-    url_imv = './@data-url'
-    no_imvs = '//p[contains(text(), "Neste momento não temos imóveis com essa segmentação")]'
+        self.filtro = filtro
+        self.filtro_aplicado = 'venda/df/todos/apartamento'
+
+        if filtro:
+            self.filtro_aplicado = self.filtro
+        log.info(f'Filtro aplicado: {self.filtro_aplicado}')
+        self.keyword = self.filtro_aplicado.replace('/', '-')  # usado como nome do arquivo de saida
+
+        self.page = 1
+        self.url = f'https://www.dfimoveis.com.br/{self.filtro_aplicado}?pagina={self.page}'
+
+        self.cards_imoveis = '//div[@class="property js-propriedade"]'
+        self.cod_imovel = '(//input[@id="idDoImovel"])[1]/@value'
+        self.data_publicacao = ''
+        self.anunciante = '(//img[@id="LogoDoAnunciante"])[1]/@alt'
+        self.creci = '(//input[@id="creciDoAnunciante"])[1]/@value'
+        self.atualizacao = '//*[contains(text(), " Última Atualização:")]/small/text()'
+        self.endereco = '(//input[@id="enderecoDoImovel"])[1]/@value'
+        self.bairro = '//*[contains(text(), "Bairro:")]/small/text()'
+        self.cidade = '//*[contains(text(), "Cidade:")]/small/text()'
+        self.quartos = '//*[contains(text(), "Quartos:")]/small/text()'
+        self.suites = '//*[contains(text(), "Suítes:")]/small/text()'
+        self.garagem = '//*[contains(text(), "Garagens:")]/small/text()'
+        self.valor_imovel = '//*[contains(text(), "R$:")]/small/text()'
+        self.area_privativa = '(//*[contains(text(), "Área Útil:")]/small/text())[1]'
+        self.area_total = '//*[contains(text(), "Área Total:")]/small/text()'
+        self.valor_condominio = '(//*[contains(text(), "Condomínio R$:")]/small/text())[1]'
+        self.valor_mt2 = '(//*[contains(text(), "Valor R$ /m²:")]/small/text())[1]'
+        self.url_imv = './@data-url'
+        self.no_imvs = '//p[contains(text(), "Neste momento não temos imóveis com essa segmentação")]'
+        self.resultado_pesquisa = '//h1[@itemprop="name"]/text()'
 
     def start_requests(self):
         log.info(f'Acessando: {self.url}')
         yield scrapy.Request(url=self.url, callback=self.parse)
 
     def parse(self, response, **kwargs):
+        log.info(f'Resultado da Pesquisa: {response.xpath(self.resultado_pesquisa).get()}')
         no_page = response.xpath(self.url_imv).get()
         if no_page:
             log.info('Não existem mais imóveis.')
@@ -60,7 +70,7 @@ class DfimoveisSpider(CrawlSpider):
             yield scrapy.Request(url=url_imv, callback=self.parse_item)
 
         self.page = self.page + 1
-        url = f'https://www.dfimoveis.com.br/venda/df/todos/{self.keyword}?pagina={self.page}'
+        url = f'https://www.dfimoveis.com.br/venda/{self.estado}/{self.filtro_aplicado}?pagina={self.page}'
         log.info(f'Acessando: {url}')
         yield scrapy.Request(url=url, callback=self.parse)
 
