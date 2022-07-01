@@ -15,6 +15,7 @@ class DfimoveisSpider(scrapy.Spider):
 
     def __init__(self, filtro=None, **kwargs):
         super().__init__(**kwargs)
+
         log.info(f'Crawler iniciado: {self.name}')
 
         self.filtro = filtro
@@ -28,6 +29,7 @@ class DfimoveisSpider(scrapy.Spider):
         self.page = 1
         self.url = f'https://www.dfimoveis.com.br/{self.filtro_aplicado}?pagina={self.page}'
 
+        self.show_result = 0
         self.cards_imoveis = '//div[@class="property js-propriedade"]'
         self.cod_imovel = '(//input[@id="idDoImovel"])[1]/@value'
         self.data_publicacao = ''
@@ -46,7 +48,7 @@ class DfimoveisSpider(scrapy.Spider):
         self.valor_condominio = '(//*[contains(text(), "Condomínio R$:")]/small/text())[1]'
         self.valor_mt2 = '(//*[contains(text(), "Valor R$ /m²:")]/small/text())[1]'
         self.url_imv = './@data-url'
-        self.no_imvs = '//p[contains(text(), "Neste momento não temos imóveis com essa segmentação")]'
+        self.no_imvs = '//p[@class="sem-resultado"]'
         self.resultado_pesquisa = '//h1[@itemprop="name"]/text()'
 
     def start_requests(self):
@@ -54,8 +56,11 @@ class DfimoveisSpider(scrapy.Spider):
         yield scrapy.Request(url=self.url, callback=self.parse)
 
     def parse(self, response, **kwargs):
-        log.info(f'Resultado da Pesquisa: {response.xpath(self.resultado_pesquisa).get()}')
-        no_page = response.xpath(self.url_imv).get()
+        if self.show_result == 0:
+            log.info(f'Resultado da Pesquisa: {response.xpath(self.resultado_pesquisa).get()}')
+            self.show_result = 1
+
+        no_page = response.xpath(self.no_imvs).get()
         if no_page:
             log.info('Não existem mais imóveis.')
             raise CloseSpider('Todas as paginas foram raspadas.')
@@ -64,13 +69,13 @@ class DfimoveisSpider(scrapy.Spider):
         url_base = '{uri.scheme}://{uri.netloc}'.format(uri=parsed_uri)
 
         cards_imoveis = response.xpath(self.cards_imoveis)
+        # log.debug(cards_imoveis)
         for card in cards_imoveis:
             url_imv = url_base + card.xpath(self.url_imv).get()
-
             yield scrapy.Request(url=url_imv, callback=self.parse_item)
 
-        self.page = self.page + 1
-        url = f'https://www.dfimoveis.com.br/venda/{self.estado}/{self.filtro_aplicado}?pagina={self.page}'
+        self.page += 1
+        url = f'https://www.dfimoveis.com.br/{self.filtro_aplicado}?pagina={self.page}'
         log.info(f'Acessando: {url}')
         yield scrapy.Request(url=url, callback=self.parse)
 
@@ -98,5 +103,5 @@ class DfimoveisSpider(scrapy.Spider):
 
             yield item
         except BaseException as err:
-            log.error('Error ao processar item.')
+            log.error('Error ao pesquisar item.')
             log.error(err)
