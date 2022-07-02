@@ -11,6 +11,7 @@ class DefaultItem(scrapy.Item):
     bairro = scrapy.Field()
     cidade = scrapy.Field()
     quartos = scrapy.Field()
+    banheiros = scrapy.Field()
     suites = scrapy.Field()
     garagem = scrapy.Field()
     dce = scrapy.Field()
@@ -20,4 +21,5 @@ class DefaultItem(scrapy.Item):
     valor_condominio = scrapy.Field()
     valor_mt2 = scrapy.Field()
     url = scrapy.Field()
+    idade_imovel = scrapy.Field()
     data_publicacao = scrapy.Field()
