@@ -1,0 +1,1398 @@
+[
+  {
+    "id": "V1-C-99998",
+    "name": "Brasília",
+    "label": "departamento",
+    "labelSuggest": "Brasília, Distrito Federal",
+    "tokens": [
+      "distrito",
+      "brasilia",
+      "federal"
+    ]
+  },
+  {
+    "id": "V1-Z-42704",
+    "name": "Asa Norte",
+    "label": "",
+    "labelSuggest": "Asa Norte, Brasília, Distrito Federal",
+    "tokens": [
+      "norte",
+      "distrito",
+      "brasilia",
+      "federal",
+      "asa"
+    ]
+  },
+  {
+    "id": "V1-Z-42705",
+    "name": "Asa Sul",
+    "label": "",
+    "labelSuggest": "Asa Sul, Brasília, Distrito Federal",
+    "tokens": [
+      "distrito",
+      "brasilia",
+      "federal",
+      "sul",
+      "asa"
+    ]
+  },
+  {
+    "id": "V1-Z-42748",
+    "name": "Noroeste",
+    "label": "",
+    "labelSuggest": "Noroeste, Brasília, Distrito Federal",
+    "tokens": [
+      "distrito",
+      "noroeste",
+      "brasilia",
+      "federal"
+    ]
+  },
+  {
+    "id": "V1-Z-48935",
+    "name": "Setor Habitacional Jardim Botânico",
+    "label": "",
+    "labelSuggest": "Setor Habitacional Jardim Botânico, Brasília, Distrito Federal",
+    "tokens": [
+      "jardim",
+      "setor",
+      "distrito",
+      "botanico",
+      "brasilia",
+      "federal",
+      "habitacional"
+    ]
+  },
+  {
+    "id": "V1-Z-42709",
+    "name": "Lago Norte",
+    "label": "",
+    "labelSuggest": "Lago Norte, Brasília, Distrito Federal",
+    "tokens": [
+      "norte",
+      "distrito",
+      "brasilia",
+      "federal",
+      "lago"
+    ]
+  },
+  {
+    "id": "V1-Z-42710",
+    "name": "Lago Sul",
+    "label": "",
+    "labelSuggest": "Lago Sul, Brasília, Distrito Federal",
+    "tokens": [
+      "distrito",
+      "brasilia",
+      "federal",
+      "sul",
+      "lago"
+    ]
+  },
+  {
+    "id": "V1-Z-42750",
+    "name": "Sudoeste",
+    "label": "",
+    "labelSuggest": "Sudoeste, Brasília, Distrito Federal",
+    "tokens": [
+      "distrito",
+      "brasilia",
+      "federal",
+      "sudoeste"
+    ]
+  },
+  {
+    "id": "V1-Z-49048",
+    "name": "Centro",
+    "label": "",
+    "labelSuggest": "Centro, Brasília, Distrito Federal",
+    "tokens": [
+      "distrito",
+      "centro",
+      "brasilia",
+      "federal"
+    ]
+  },
+  {
+    "id": "V1-Z-60025",
+    "name": "Park Way",
+    "label": "",
+    "labelSuggest": "Park Way, Brasília, Distrito Federal",
+    "tokens": [
+      "distrito",
+      "brasilia",
+      "federal",
+      "park",
+      "way"
+    ]
+  },
+  {
+    "id": "V1-Z-42711",
+    "name": "Park Sul",
+    "label": "",
+    "labelSuggest": "Park Sul, Brasília, Distrito Federal",
+    "tokens": [
+      "distrito",
+      "brasilia",
+      "federal",
+      "sul",
+      "park"
+    ]
+  },
+  {
+    "id": "V1-Z-80218",
+    "name": "Águas Claras",
+    "label": "",
+    "labelSuggest": "Águas Claras, Brasília, Distrito Federal",
+    "tokens": [
+      "distrito",
+      "claras",
+      "aguas",
+      "brasilia",
+      "federal"
+    ]
+  },
+  {
+    "id": "V1-Z-1846",
+    "name": "Vila Brasília",
+    "label": "",
+    "labelSuggest": "Vila Brasília, Aparecida de Goiânia, Goiás",
+    "tokens": [
+      "de",
+      "goiania",
+      "brasilia",
+      "aparecida",
+      "goias",
+      "vila"
+    ]
+  },
+  {
+    "id": "V1-Z-42703",
+    "name": "Octogonal",
+    "label": "",
+    "labelSuggest": "Octogonal, Brasília, Distrito Federal",
+    "tokens": [
+      "distrito",
+      "brasilia",
+      "federal",
+      "octogonal"
+    ]
+  },
+  {
+    "id": "V1-Z-42736",
+    "name": "Setor De Industrias",
+    "label": "",
+    "labelSuggest": "Setor De Industrias, Brasília, Distrito Federal",
+    "tokens": [
+      "setor",
+      "de",
+      "distrito",
+      "brasilia",
+      "federal",
+      "industrias"
+    ]
+  },
+  {
+    "id": "V1-Z-42751",
+    "name": "Taquari",
+    "label": "",
+    "labelSuggest": "Taquari, Brasília, Distrito Federal",
+    "tokens": [
+      "taquari",
+      "distrito",
+      "brasilia",
+      "federal"
+    ]
+  },
+  {
+    "id": "V1-Z-77775",
+    "name": "Setor Habitacional Tororo",
+    "label": "",
+    "labelSuggest": "Setor Habitacional Tororo, Brasília, Distrito Federal",
+    "tokens": [
+      "setor",
+      "distrito",
+      "tororo",
+      "brasilia",
+      "federal",
+      "habitacional"
+    ]
+  },
+  {
+    "id": "V1-Z-80074",
+    "name": "Setor Habitacional Jardins Mangueiral",
+    "label": "",
+    "labelSuggest": "Setor Habitacional Jardins Mangueiral, Brasília, Distrito Federal",
+    "tokens": [
+      "setor",
+      "distrito",
+      "jardins",
+      "brasilia",
+      "federal",
+      "habitacional",
+      "mangueiral"
+    ]
+  },
+  {
+    "id": "V1-Z-80219",
+    "name": "Arniqueiras",
+    "label": "",
+    "labelSuggest": "Arniqueiras, Brasília, Distrito Federal",
+    "tokens": [
+      "distrito",
+      "arniqueiras",
+      "brasilia",
+      "federal"
+    ]
+  },
+  {
+    "id": "V1-Z-80222",
+    "name": "Guará",
+    "label": "",
+    "labelSuggest": "Guará, Brasília, Distrito Federal",
+    "tokens": [
+      "guara",
+      "distrito",
+      "brasilia",
+      "federal"
+    ]
+  },
+  {
+    "id": "V1-Z-80228",
+    "name": "Samambaia Sul",
+    "label": "",
+    "labelSuggest": "Samambaia Sul, Brasília, Distrito Federal",
+    "tokens": [
+      "distrito",
+      "brasilia",
+      "federal",
+      "samambaia",
+      "sul"
+    ]
+  },
+  {
+    "id": "V1-Z-80231",
+    "name": "Taguatinga",
+    "label": "",
+    "labelSuggest": "Taguatinga, Brasília, Distrito Federal",
+    "tokens": [
+      "distrito",
+      "brasilia",
+      "federal",
+      "taguatinga"
+    ]
+  },
+  {
+    "id": "V1-Z-42714",
+    "name": "Setor Comercial Norte",
+    "label": "",
+    "labelSuggest": "Setor Comercial Norte, Brasília, Distrito Federal",
+    "tokens": [
+      "comercial",
+      "norte",
+      "setor",
+      "distrito",
+      "brasilia",
+      "federal"
+    ]
+  },
+  {
+    "id": "V1-Z-42715",
+    "name": "Setor Comercial Sul",
+    "label": "",
+    "labelSuggest": "Setor Comercial Sul, Brasília, Distrito Federal",
+    "tokens": [
+      "comercial",
+      "setor",
+      "distrito",
+      "brasilia",
+      "federal",
+      "sul"
+    ]
+  },
+  {
+    "id": "V1-Z-42735",
+    "name": "Setor De Industria Graficas",
+    "label": "",
+    "labelSuggest": "Setor De Industria Graficas, Brasília, Distrito Federal",
+    "tokens": [
+      "industria",
+      "setor",
+      "de",
+      "distrito",
+      "graficas",
+      "brasilia",
+      "federal"
+    ]
+  },
+  {
+    "id": "V1-Z-42744",
+    "name": "Setor Hoteleiro Norte",
+    "label": "",
+    "labelSuggest": "Setor Hoteleiro Norte, Brasília, Distrito Federal",
+    "tokens": [
+      "norte",
+      "setor",
+      "distrito",
+      "hoteleiro",
+      "brasilia",
+      "federal"
+    ]
+  },
+  {
+    "id": "V1-Z-42752",
+    "name": "Vila Planalto",
+    "label": "",
+    "labelSuggest": "Vila Planalto, Brasília, Distrito Federal",
+    "tokens": [
+      "distrito",
+      "brasilia",
+      "federal",
+      "planalto",
+      "vila"
+    ]
+  },
+  {
+    "id": "V1-Z-42753",
+    "name": "Vila Da Telebrasilia",
+    "label": "",
+    "labelSuggest": "Vila Da Telebrasilia, Brasília, Distrito Federal",
+    "tokens": [
+      "distrito",
+      "brasilia",
+      "federal",
+      "da",
+      "telebrasilia",
+      "vila"
+    ]
+  },
+  {
+    "id": "V1-Z-48367",
+    "name": "Zona Rural",
+    "label": "",
+    "labelSuggest": "Zona Rural, Brasília, Distrito Federal",
+    "tokens": [
+      "zona",
+      "distrito",
+      "rural",
+      "brasilia",
+      "federal"
+    ]
+  },
+  {
+    "id": "V1-Z-77629",
+    "name": "Alphaville",
+    "label": "",
+    "labelSuggest": "Alphaville, Brasília, Distrito Federal",
+    "tokens": [
+      "alphaville",
+      "distrito",
+      "brasilia",
+      "federal"
+    ]
+  },
+  {
+    "id": "V1-Z-80075",
+    "name": "Setor de Hotéis e Turismo Norte",
+    "label": "",
+    "labelSuggest": "Setor de Hotéis e Turismo Norte, Brasília, Distrito Federal",
+    "tokens": [
+      "norte",
+      "setor",
+      "de",
+      "distrito",
+      "e",
+      "hoteis",
+      "brasilia",
+      "federal",
+      "turismo"
+    ]
+  },
+  {
+    "id": "V1-Z-80079",
+    "name": "Setor de Mansões Dom Bosco",
+    "label": "",
+    "labelSuggest": "Setor de Mansões Dom Bosco, Brasília, Distrito Federal",
+    "tokens": [
+      "setor",
+      "de",
+      "distrito",
+      "dom",
+      "brasilia",
+      "federal",
+      "mansões",
+      "bosco"
+    ]
+  },
+  {
+    "id": "V1-Z-80081",
+    "name": "Setor de Mansões Lago Norte",
+    "label": "",
+    "labelSuggest": "Setor de Mansões Lago Norte, Brasília, Distrito Federal",
+    "tokens": [
+      "norte",
+      "setor",
+      "de",
+      "distrito",
+      "brasilia",
+      "federal",
+      "mansões",
+      "lago"
+    ]
+  },
+  {
+    "id": "V1-Z-80084",
+    "name": "Superquadra Noroeste",
+    "label": "",
+    "labelSuggest": "Superquadra Noroeste, Brasília, Distrito Federal",
+    "tokens": [
+      "distrito",
+      "noroeste",
+      "brasilia",
+      "federal",
+      "superquadra"
+    ]
+  },
+  {
+    "id": "V1-Z-80221",
+    "name": "Ceilandia",
+    "label": "",
+    "labelSuggest": "Ceilandia, Brasília, Distrito Federal",
+    "tokens": [
+      "distrito",
+      "brasilia",
+      "federal",
+      "ceilandia"
+    ]
+  },
+  {
+    "id": "V1-Z-80227",
+    "name": "Recanto das Emas",
+    "label": "",
+    "labelSuggest": "Recanto das Emas, Brasília, Distrito Federal",
+    "tokens": [
+      "distrito",
+      "emas",
+      "das",
+      "recanto",
+      "brasilia",
+      "federal"
+    ]
+  },
+  {
+    "id": "V1-Z-80230",
+    "name": "Sobradinho",
+    "label": "",
+    "labelSuggest": "Sobradinho, Brasília, Distrito Federal",
+    "tokens": [
+      "distrito",
+      "sobradinho",
+      "brasilia",
+      "federal"
+    ]
+  },
+  {
+    "id": "V1-Z-80252",
+    "name": "Cruzeiro",
+    "label": "",
+    "labelSuggest": "Cruzeiro, Brasília, Distrito Federal",
+    "tokens": [
+      "distrito",
+      "brasilia",
+      "federal",
+      "cruzeiro"
+    ]
+  },
+  {
+    "id": "V1-Z-24470",
+    "name": "Jardim Brasília",
+    "label": "",
+    "labelSuggest": "Jardim Brasília, Águas Lindas de Goiás, Goiás",
+    "tokens": [
+      "jardim",
+      "de",
+      "lindas",
+      "aguas",
+      "brasilia",
+      "goias"
+    ]
+  },
+  {
+    "id": "V1-Z-35490",
+    "name": "Parque Brasília 2ª Etapa",
+    "label": "",
+    "labelSuggest": "Parque Brasília 2ª Etapa, Anápolis, Goiás",
+    "tokens": [
+      "anapolis",
+      "etapa",
+      "brasilia",
+      "2ª",
+      "parque",
+      "goias"
+    ]
+  },
+  {
+    "id": "V1-Z-42707",
+    "name": "Granja Do Torto",
+    "label": "",
+    "labelSuggest": "Granja Do Torto, Brasília, Distrito Federal",
+    "tokens": [
+      "distrito",
+      "torto",
+      "granja",
+      "brasilia",
+      "federal",
+      "do"
+    ]
+  },
+  {
+    "id": "V1-Z-42712",
+    "name": "Setor Bancario Norte",
+    "label": "",
+    "labelSuggest": "Setor Bancario Norte, Brasília, Distrito Federal",
+    "tokens": [
+      "norte",
+      "setor",
+      "distrito",
+      "brasilia",
+      "federal",
+      "bancario"
+    ]
+  },
+  {
+    "id": "V1-Z-42718",
+    "name": "Setor Da Industria E Abastecimento",
+    "label": "",
+    "labelSuggest": "Setor Da Industria E Abastecimento, Brasília, Distrito Federal",
+    "tokens": [
+      "industria",
+      "setor",
+      "distrito",
+      "e",
+      "brasilia",
+      "federal",
+      "da",
+      "abastecimento"
+    ]
+  },
+  {
+    "id": "V1-Z-42722",
+    "name": "Setor De Autarquias Sul",
+    "label": "",
+    "labelSuggest": "Setor De Autarquias Sul, Brasília, Distrito Federal",
+    "tokens": [
+      "autarquias",
+      "setor",
+      "de",
+      "distrito",
+      "brasilia",
+      "federal",
+      "sul"
+    ]
+  },
+  {
+    "id": "V1-Z-42724",
+    "name": "Setor De Clubes Esportivos Sul",
+    "label": "",
+    "labelSuggest": "Setor De Clubes Esportivos Sul, Brasília, Distrito Federal",
+    "tokens": [
+      "setor",
+      "de",
+      "distrito",
+      "brasilia",
+      "federal",
+      "esportivos",
+      "sul",
+      "clubes"
+    ]
+  },
+  {
+    "id": "V1-Z-42727",
+    "name": "Setor De Diversoes Sul",
+    "label": "",
+    "labelSuggest": "Setor De Diversoes Sul, Brasília, Distrito Federal",
+    "tokens": [
+      "setor",
+      "de",
+      "distrito",
+      "diversoes",
+      "brasilia",
+      "federal",
+      "sul"
+    ]
+  },
+  {
+    "id": "V1-Z-42739",
+    "name": "Setor De Radio E Televisao Sul",
+    "label": "",
+    "labelSuggest": "Setor De Radio E Televisao Sul, Brasília, Distrito Federal",
+    "tokens": [
+      "setor",
+      "de",
+      "distrito",
+      "e",
+      "televisao",
+      "brasilia",
+      "federal",
+      "sul",
+      "radio"
+    ]
+  },
+  {
+    "id": "V1-Z-42745",
+    "name": "Setor Hoteleiro Sul",
+    "label": "",
+    "labelSuggest": "Setor Hoteleiro Sul, Brasília, Distrito Federal",
+    "tokens": [
+      "setor",
+      "distrito",
+      "hoteleiro",
+      "brasilia",
+      "federal",
+      "sul"
+    ]
+  },
+  {
+    "id": "V1-Z-42948",
+    "name": "Setores Complementares",
+    "label": "",
+    "labelSuggest": "Setores Complementares, Brasília, Distrito Federal",
+    "tokens": [
+      "distrito",
+      "brasilia",
+      "federal",
+      "complementares",
+      "setores"
+    ]
+  },
+  {
+    "id": "V1-Z-51357",
+    "name": "Zona Industrial",
+    "label": "",
+    "labelSuggest": "Zona Industrial, Brasília, Distrito Federal",
+    "tokens": [
+      "zona",
+      "distrito",
+      "industrial",
+      "brasilia",
+      "federal"
+    ]
+  },
+  {
+    "id": "V1-Z-80060",
+    "name": "Mansões do Lago",
+    "label": "",
+    "labelSuggest": "Mansões do Lago, Brasília, Distrito Federal",
+    "tokens": [
+      "distrito",
+      "brasilia",
+      "federal",
+      "mansões",
+      "do",
+      "lago"
+    ]
+  },
+  {
+    "id": "V1-Z-80063",
+    "name": "Setor de Armazenagem e Abastecimento Norte",
+    "label": "",
+    "labelSuggest": "Setor de Armazenagem e Abastecimento Norte, Brasília, Distrito Federal",
+    "tokens": [
+      "norte",
+      "setor",
+      "de",
+      "distrito",
+      "armazenagem",
+      "e",
+      "brasilia",
+      "federal",
+      "abastecimento"
+    ]
+  },
+  {
+    "id": "V1-Z-80086",
+    "name": "Superquadra Sudoeste",
+    "label": "",
+    "labelSuggest": "Superquadra Sudoeste, Brasília, Distrito Federal",
+    "tokens": [
+      "distrito",
+      "brasilia",
+      "federal",
+      "sudoeste",
+      "superquadra"
+    ]
+  },
+  {
+    "id": "V1-Z-80220",
+    "name": "Candangolândia",
+    "label": "",
+    "labelSuggest": "Candangolândia, Brasília, Distrito Federal",
+    "tokens": [
+      "distrito",
+      "brasilia",
+      "federal",
+      "candangolandia"
+    ]
+  },
+  {
+    "id": "V1-Z-80224",
+    "name": "Paranoá",
+    "label": "",
+    "labelSuggest": "Paranoá, Brasília, Distrito Federal",
+    "tokens": [
+      "distrito",
+      "paranoa",
+      "brasilia",
+      "federal"
+    ]
+  },
+  {
+    "id": "V1-Z-1614",
+    "name": "Parque Brasília",
+    "label": "",
+    "labelSuggest": "Parque Brasília, Anápolis, Goiás",
+    "tokens": [
+      "anapolis",
+      "brasilia",
+      "parque",
+      "goias"
+    ]
+  },
+  {
+    "id": "V1-Z-38131",
+    "name": "Vila Brasília Complemento",
+    "label": "",
+    "labelSuggest": "Vila Brasília Complemento, Aparecida de Goiânia, Goiás",
+    "tokens": [
+      "de",
+      "complemento",
+      "goiania",
+      "brasilia",
+      "aparecida",
+      "goias",
+      "vila"
+    ]
+  },
+  {
+    "id": "V1-Z-42713",
+    "name": "Setor Bancario Sul",
+    "label": "",
+    "labelSuggest": "Setor Bancario Sul, Brasília, Distrito Federal",
+    "tokens": [
+      "setor",
+      "distrito",
+      "brasilia",
+      "federal",
+      "sul",
+      "bancario"
+    ]
+  },
+  {
+    "id": "V1-Z-42737",
+    "name": "Setor De Oficinas Norte",
+    "label": "",
+    "labelSuggest": "Setor De Oficinas Norte, Brasília, Distrito Federal",
+    "tokens": [
+      "norte",
+      "setor",
+      "de",
+      "distrito",
+      "oficinas",
+      "brasilia",
+      "federal"
+    ]
+  },
+  {
+    "id": "V1-Z-42746",
+    "name": "Setor Medico Hospitalar Norte",
+    "label": "",
+    "labelSuggest": "Setor Medico Hospitalar Norte, Brasília, Distrito Federal",
+    "tokens": [
+      "norte",
+      "setor",
+      "distrito",
+      "medico",
+      "brasilia",
+      "federal",
+      "hospitalar"
+    ]
+  },
+  {
+    "id": "V1-Z-42789",
+    "name": "SQB - Super Quadra Brasilia",
+    "label": "",
+    "labelSuggest": "SQB - Super Quadra Brasilia, Guará, Distrito Federal",
+    "tokens": [
+      "super",
+      "guara",
+      "distrito",
+      "sqb",
+      "quadra",
+      "brasilia",
+      "federal",
+      "-"
+    ]
+  },
+  {
+    "id": "V1-Z-73829",
+    "name": "Ponte Alta de Cima",
+    "label": "",
+    "labelSuggest": "Ponte Alta de Cima, Brasília, Distrito Federal",
+    "tokens": [
+      "de",
+      "distrito",
+      "cima",
+      "alta",
+      "brasilia",
+      "federal",
+      "ponte"
+    ]
+  },
+  {
+    "id": "V1-Z-80058",
+    "name": "Centro de Atividades",
+    "label": "",
+    "labelSuggest": "Centro de Atividades, Brasília, Distrito Federal",
+    "tokens": [
+      "atividades",
+      "de",
+      "distrito",
+      "centro",
+      "brasilia",
+      "federal"
+    ]
+  },
+  {
+    "id": "V1-Z-80064",
+    "name": "Setor Comercial Local Residencial Norte",
+    "label": "",
+    "labelSuggest": "Setor Comercial Local Residencial Norte, Brasília, Distrito Federal",
+    "tokens": [
+      "comercial",
+      "norte",
+      "setor",
+      "distrito",
+      "brasilia",
+      "federal",
+      "residencial",
+      "local"
+    ]
+  },
+  {
+    "id": "V1-Z-80076",
+    "name": "Setor de Hotéis e Turismo Sul",
+    "label": "",
+    "labelSuggest": "Setor de Hotéis e Turismo Sul, Brasília, Distrito Federal",
+    "tokens": [
+      "setor",
+      "de",
+      "distrito",
+      "e",
+      "hoteis",
+      "brasilia",
+      "federal",
+      "sul",
+      "turismo"
+    ]
+  },
+  {
+    "id": "V1-Z-80078",
+    "name": "Setor de Múltiplas Atividades Sul",
+    "label": "",
+    "labelSuggest": "Setor de Múltiplas Atividades Sul, Brasília, Distrito Federal",
+    "tokens": [
+      "atividades",
+      "setor",
+      "de",
+      "distrito",
+      "brasilia",
+      "federal",
+      "multiplas",
+      "sul"
+    ]
+  },
+  {
+    "id": "V1-Z-80095",
+    "name": "Setor de Grandes Áreas Norte",
+    "label": "",
+    "labelSuggest": "Setor de Grandes Áreas Norte, Brasília, Distrito Federal",
+    "tokens": [
+      "norte",
+      "setor",
+      "de",
+      "distrito",
+      "brasilia",
+      "federal",
+      "areas",
+      "grandes"
+    ]
+  },
+  {
+    "id": "V1-Z-80226",
+    "name": "Planaltina",
+    "label": "",
+    "labelSuggest": "Planaltina, Brasília, Distrito Federal",
+    "tokens": [
+      "distrito",
+      "planaltina",
+      "brasilia",
+      "federal"
+    ]
+  },
+  {
+    "id": "V1-Z-80367",
+    "name": "Samambaia Norte",
+    "label": "",
+    "labelSuggest": "Samambaia Norte, Brasília, Distrito Federal",
+    "tokens": [
+      "norte",
+      "distrito",
+      "brasilia",
+      "federal",
+      "samambaia"
+    ]
+  },
+  {
+    "id": "V1-C-112841",
+    "name": "Entorno do Brasilia",
+    "label": "departamento",
+    "labelSuggest": "Entorno do Brasilia, Goiás",
+    "tokens": [
+      "brasilia",
+      "do",
+      "goias",
+      "entorno"
+    ]
+  },
+  {
+    "id": "V1-Z-2259",
+    "name": "Setor Brasília",
+    "label": "",
+    "labelSuggest": "Setor Brasília, Itumbiara, Goiás",
+    "tokens": [
+      "setor",
+      "brasilia",
+      "goias",
+      "itumbiara"
+    ]
+  },
+  {
+    "id": "V1-Z-42719",
+    "name": "Setor De Administracao Federal Sul",
+    "label": "",
+    "labelSuggest": "Setor De Administracao Federal Sul, Brasília, Distrito Federal",
+    "tokens": [
+      "setor",
+      "de",
+      "distrito",
+      "administracao",
+      "federal",
+      "brasilia",
+      "sul"
+    ]
+  },
+  {
+    "id": "V1-Z-42723",
+    "name": "Setor De Clubes Esportivos Norte",
+    "label": "",
+    "labelSuggest": "Setor De Clubes Esportivos Norte, Brasília, Distrito Federal",
+    "tokens": [
+      "norte",
+      "setor",
+      "de",
+      "distrito",
+      "brasilia",
+      "federal",
+      "esportivos",
+      "clubes"
+    ]
+  },
+  {
+    "id": "V1-Z-42726",
+    "name": "Setor De Diversoes Norte",
+    "label": "",
+    "labelSuggest": "Setor De Diversoes Norte, Brasília, Distrito Federal",
+    "tokens": [
+      "norte",
+      "setor",
+      "de",
+      "distrito",
+      "diversoes",
+      "brasilia",
+      "federal"
+    ]
+  },
+  {
+    "id": "V1-Z-42730",
+    "name": "Setor De Garagens Oficiais",
+    "label": "",
+    "labelSuggest": "Setor De Garagens Oficiais, Brasília, Distrito Federal",
+    "tokens": [
+      "setor",
+      "de",
+      "distrito",
+      "brasilia",
+      "federal",
+      "garagens",
+      "oficiais"
+    ]
+  },
+  {
+    "id": "V1-Z-42742",
+    "name": "Setor Hospitalar Local Norte",
+    "label": "",
+    "labelSuggest": "Setor Hospitalar Local Norte, Brasília, Distrito Federal",
+    "tokens": [
+      "norte",
+      "setor",
+      "distrito",
+      "brasilia",
+      "federal",
+      "hospitalar",
+      "local"
+    ]
+  },
+  {
+    "id": "V1-Z-42754",
+    "name": "Zona Civico-administrativa",
+    "label": "",
+    "labelSuggest": "Zona Civico-administrativa, Brasília, Distrito Federal",
+    "tokens": [
+      "zona",
+      "distrito",
+      "civico-administrativa",
+      "brasilia",
+      "federal"
+    ]
+  },
+  {
+    "id": "V1-Z-80061",
+    "name": "Quadra Mista Noroeste",
+    "label": "",
+    "labelSuggest": "Quadra Mista Noroeste, Brasília, Distrito Federal",
+    "tokens": [
+      "distrito",
+      "noroeste",
+      "mista",
+      "quadra",
+      "brasilia",
+      "federal"
+    ]
+  },
+  {
+    "id": "V1-Z-80062",
+    "name": "Quadra Mista Sudoeste",
+    "label": "",
+    "labelSuggest": "Quadra Mista Sudoeste, Brasília, Distrito Federal",
+    "tokens": [
+      "distrito",
+      "mista",
+      "quadra",
+      "brasilia",
+      "federal",
+      "sudoeste"
+    ]
+  },
+  {
+    "id": "V1-Z-80070",
+    "name": "Setor Habitacional de Casas Geminadas Norte",
+    "label": "",
+    "labelSuggest": "Setor Habitacional de Casas Geminadas Norte, Brasília, Distrito Federal",
+    "tokens": [
+      "norte",
+      "setor",
+      "de",
+      "distrito",
+      "geminadas",
+      "casas",
+      "brasilia",
+      "federal",
+      "habitacional"
+    ]
+  },
+  {
+    "id": "V1-Z-80072",
+    "name": "Setor de Habitações Coletivas Norte",
+    "label": "",
+    "labelSuggest": "Setor de Habitações Coletivas Norte, Brasília, Distrito Federal",
+    "tokens": [
+      "norte",
+      "setor",
+      "de",
+      "distrito",
+      "habitacões",
+      "coletivas",
+      "brasilia",
+      "federal"
+    ]
+  },
+  {
+    "id": "V1-Z-80083",
+    "name": "Superquadra Norte",
+    "label": "",
+    "labelSuggest": "Superquadra Norte, Brasília, Distrito Federal",
+    "tokens": [
+      "norte",
+      "distrito",
+      "brasilia",
+      "federal",
+      "superquadra"
+    ]
+  },
+  {
+    "id": "V1-Z-80085",
+    "name": "Superquadra Sul",
+    "label": "",
+    "labelSuggest": "Superquadra Sul, Brasília, Distrito Federal",
+    "tokens": [
+      "distrito",
+      "brasilia",
+      "federal",
+      "sul",
+      "superquadra"
+    ]
+  },
+  {
+    "id": "V1-Z-80091",
+    "name": "Centro Comercial Sudoeste",
+    "label": "",
+    "labelSuggest": "Centro Comercial Sudoeste, Brasília, Distrito Federal",
+    "tokens": [
+      "comercial",
+      "distrito",
+      "centro",
+      "brasilia",
+      "federal",
+      "sudoeste"
+    ]
+  },
+  {
+    "id": "V1-Z-80090",
+    "name": "Centro Comercial Noroeste",
+    "label": "",
+    "labelSuggest": "Centro Comercial Noroeste, Brasília, Distrito Federal",
+    "tokens": [
+      "comercial",
+      "distrito",
+      "noroeste",
+      "centro",
+      "brasilia",
+      "federal"
+    ]
+  },
+  {
+    "id": "V1-Z-80093",
+    "name": "Comércio Local Sudoeste",
+    "label": "",
+    "labelSuggest": "Comércio Local Sudoeste, Brasília, Distrito Federal",
+    "tokens": [
+      "distrito",
+      "comercio",
+      "brasilia",
+      "federal",
+      "sudoeste",
+      "local"
+    ]
+  },
+  {
+    "id": "V1-Z-80092",
+    "name": "Comércio Local Noroeste",
+    "label": "",
+    "labelSuggest": "Comércio Local Noroeste, Brasília, Distrito Federal",
+    "tokens": [
+      "distrito",
+      "noroeste",
+      "comercio",
+      "brasilia",
+      "federal",
+      "local"
+    ]
+  },
+  {
+    "id": "V1-Z-80223",
+    "name": "Itapoã",
+    "label": "",
+    "labelSuggest": "Itapoã, Brasília, Distrito Federal",
+    "tokens": [
+      "itapoa",
+      "distrito",
+      "brasilia",
+      "federal"
+    ]
+  },
+  {
+    "id": "V1-Z-27335",
+    "name": "Jardim Brasília Sul",
+    "label": "",
+    "labelSuggest": "Jardim Brasília Sul, Luziânia, Goiás",
+    "tokens": [
+      "jardim",
+      "luziania",
+      "brasilia",
+      "sul",
+      "goias"
+    ]
+  },
+  {
+    "id": "V1-Z-37969",
+    "name": "Parque Desportivo Brasília (Roosevelt)",
+    "label": "",
+    "labelSuggest": "Parque Desportivo Brasília (Roosevelt), Luziânia, Goiás",
+    "tokens": [
+      "luziania",
+      "desportivo",
+      "brasilia",
+      "roosevelt",
+      "parque",
+      "goias"
+    ]
+  },
+  {
+    "id": "V1-Z-42716",
+    "name": "Setor Cultural Norte",
+    "label": "",
+    "labelSuggest": "Setor Cultural Norte, Brasília, Distrito Federal",
+    "tokens": [
+      "cultural",
+      "norte",
+      "setor",
+      "distrito",
+      "brasilia",
+      "federal"
+    ]
+  },
+  {
+    "id": "V1-Z-42721",
+    "name": "Setor De Autarquias Norte",
+    "label": "",
+    "labelSuggest": "Setor De Autarquias Norte, Brasília, Distrito Federal",
+    "tokens": [
+      "autarquias",
+      "norte",
+      "setor",
+      "de",
+      "distrito",
+      "brasilia",
+      "federal"
+    ]
+  },
+  {
+    "id": "V1-Z-42738",
+    "name": "Setor De Radio E Televisao Norte",
+    "label": "",
+    "labelSuggest": "Setor De Radio E Televisao Norte, Brasília, Distrito Federal",
+    "tokens": [
+      "norte",
+      "setor",
+      "de",
+      "distrito",
+      "e",
+      "televisao",
+      "brasilia",
+      "federal",
+      "radio"
+    ]
+  },
+  {
+    "id": "V1-Z-42747",
+    "name": "Setor Medico Hospitalar Sul",
+    "label": "",
+    "labelSuggest": "Setor Medico Hospitalar Sul, Brasília, Distrito Federal",
+    "tokens": [
+      "setor",
+      "distrito",
+      "medico",
+      "brasilia",
+      "federal",
+      "hospitalar",
+      "sul"
+    ]
+  },
+  {
+    "id": "V1-Z-80068",
+    "name": "Setor de Garagens e Concessionárias de Veículos",
+    "label": "",
+    "labelSuggest": "Setor de Garagens e Concessionárias de Veículos, Brasília, Distrito Federal",
+    "tokens": [
+      "setor",
+      "de",
+      "distrito",
+      "veiculos",
+      "e",
+      "brasilia",
+      "federal",
+      "garagens",
+      "concessionarias"
+    ]
+  },
+  {
+    "id": "V1-Z-80080",
+    "name": "Setor de Mansões Isoladas Norte",
+    "label": "",
+    "labelSuggest": "Setor de Mansões Isoladas Norte, Brasília, Distrito Federal",
+    "tokens": [
+      "norte",
+      "setor",
+      "de",
+      "distrito",
+      "brasilia",
+      "federal",
+      "mansões",
+      "isoladas"
+    ]
+  },
+  {
+    "id": "V1-Z-80088",
+    "name": "Setor Terminal Norte",
+    "label": "",
+    "labelSuggest": "Setor Terminal Norte, Brasília, Distrito Federal",
+    "tokens": [
+      "norte",
+      "setor",
+      "distrito",
+      "brasilia",
+      "federal",
+      "terminal"
+    ]
+  },
+  {
+    "id": "V1-Z-1847",
+    "name": "Vila Brasília Sul",
+    "label": "",
+    "labelSuggest": "Vila Brasília Sul, Aparecida de Goiânia, Goiás",
+    "tokens": [
+      "de",
+      "goiania",
+      "brasilia",
+      "sul",
+      "aparecida",
+      "goias",
+      "vila"
+    ]
+  },
+  {
+    "id": "V1-Z-2300",
+    "name": "Setor Brasília",
+    "label": "",
+    "labelSuggest": "Setor Brasília, Jataí, Goiás",
+    "tokens": [
+      "setor",
+      "jatai",
+      "brasilia",
+      "goias"
+    ]
+  },
+  {
+    "id": "V1-Z-2355",
+    "name": "Jardim Brasília",
+    "label": "",
+    "labelSuggest": "Jardim Brasília, Rio Verde, Goiás",
+    "tokens": [
+      "jardim",
+      "brasilia",
+      "rio",
+      "verde",
+      "goias"
+    ]
+  }
+]

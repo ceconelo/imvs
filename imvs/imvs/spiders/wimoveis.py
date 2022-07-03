@@ -5,6 +5,7 @@ from uc_browser.browser_v2 import BrowserV2
 from selenium.webdriver.support.ui import WebDriverWait
 import cfscrape
 
+from urllib.parse import urlparse
 from http import HTTPStatus
 from loguru import logger as log
 
@@ -22,23 +23,47 @@ class WimoveisSpider(scrapy.Spider):
     start_urls = ['http://httpbin.org/ip']
 
     def __init__(self, filtro=None, **kwargs):
+        global bairro, id
+
         super().__init__(**kwargs)
         log.info(f'Crawler iniciado: {self.name}')
-        self.scraper = cfscrape.create_scraper(delay=10)
-        self.web = BrowserV2()
+
+        self.id_bairros = {
+            'asa-norte': '42704',  # apartamentos-venda-asa-norte-brasilia.html
+            'asa-sul': '42705',  # apartamentos-venda-asa-sul-brasilia.html
+            'noroeste': '42748',  # apartamentos-venda-noroeste-brasilia.html
+            'sudoeste': '42750',  # apartamentos-venda-sudoeste-brasilia.html
+            'octogonal': '42703',  # apartamentos-venda-octogonal-brasilia.html
+            'lago-norte': '42709',  # apartamentos-venda-lago-norte-brasilia.html
+            'park-sul': '42711',  # apartamentos-venda-park-sul-brasilia.html
+            'guara': '80222',  # apartamentos-venda-guara-brasilia.html
+            'aguas-claras': '80218',  # apartamentos-venda-aguas-claras-brasilia.html
+            'cruzeiro': '80252',  # apartamentos-venda-cruzeiro-brasilia.html
+        }
 
         self.page = 1
 
-        self.filtro = filtro
-        self.filtro_aplicado = 'apartamentos-venda-asa-sul-brasilia-pagina-'
+        self.filtro_aplicado = 'apartamentos-venda-brasilia-df.html'
 
         if filtro:
-            self.filtro_aplicado = self.filtro
+            for key, value in self.id_bairros.items():
+                if key in filtro:
+                    bairro = key
+                    id = value
+            log.debug(f'Bairro: {bairro}')
+            log.debug(f'Id Bairro: {id}')
+
+            self.filtro_aplicado = f'apartamentos-venda-{bairro}-brasilia-pagina-'
+
         log.info(f'Filtro aplicado: {self.filtro_aplicado}')
         self.keyword = self.filtro_aplicado.replace('/', '-')  # usado como nome do arquivo de saida
 
         self.url_base = f'https://www.wimoveis.com.br/{self.filtro_aplicado}-{self.page}.html'
         self.endpoint = 'https://www.wimoveis.com.br/rplis-api/postings'
+
+        self.scraper = cfscrape.create_scraper(delay=10)
+        log.info('Abrindo navegador...')
+        self.web = BrowserV2()
 
         self.headers = {
             'Host': 'www.wimoveis.com.br',
@@ -108,11 +133,10 @@ class WimoveisSpider(scrapy.Spider):
             'city': None,
             'province': None,
             'zone': None,
-            'valueZone': '42705',
+            f'valueZone': id,
             'subZone': None,
             'coordenates': None, })
 
-        log.info('Abrindo navegador...')
         self.web.navigate(url=self.url_base)
         log.info(f'Navegando na página: {self.url_base}')
 
@@ -130,11 +154,14 @@ class WimoveisSpider(scrapy.Spider):
             CloseSpider('Erro ao realizar requisição!')
 
     def parse(self, response, **kwargs):
-        global cod_imovel
+        global cod_imovel, url_imv
         total_paginas = self.data["paging"]["totalPages"]
         log.info(f'Total de paginas: {total_paginas}')
 
-        while self.page <= total_paginas - 2:
+        parsed_uri = urlparse(self.url_base)
+        url_base = '{uri.scheme}://{uri.netloc}'.format(uri=parsed_uri)
+
+        while self.page <= total_paginas:
             log.info('Pagina atual: {}'.format(self.data['paging']['currentPage']))
             log.info('Parsing...')
 
@@ -142,6 +169,8 @@ class WimoveisSpider(scrapy.Spider):
                 try:
                     item = DefaultItem()
                     cod_imovel = imv['postingId']
+                    url_imv = url_base + imv['url']
+
                     item['data_publicacao'] = ''
                     item['atualizacao'] = imv['modified_date'].split('T')[0]
                     item['cod_imovel'] = cod_imovel
@@ -171,11 +200,13 @@ class WimoveisSpider(scrapy.Spider):
                     if imv['expenses'] is not None:
                         item['valor_condominio'] = imv['expenses']['amount']
                     item['valor_mt2'] = ''
-                    item['url'] = imv['url']
+                    item['url'] = url_imv
 
                     yield item
-                except:
+                except BaseException as err:
                     log.error(f'Erro ao parsear o imv: {cod_imovel}')
+                    log.error(f'Url do imv: {url_imv}')
+                    log.error(f'Erro: {err.args}')
 
             self.page += 1
             url = f'https://www.wimoveis.com.br/{self.filtro_aplicado}{self.page}.html'
@@ -186,7 +217,7 @@ class WimoveisSpider(scrapy.Spider):
                 lambda driver: driver.execute_script("return document.readyState") == "complete")
             log.info('Pagina carregada com sucesso!')
 
-            #mudando a pagina no header
+            # mudando a pagina no header
             payload = json.loads(self.payload)
             payload['pagina'] = self.page
             payload = json.dumps(payload)
@@ -201,6 +232,5 @@ class WimoveisSpider(scrapy.Spider):
                 CloseSpider('Erro ao realizar requisição!')
             sleep(1.5)
 
-
-
-
+    def close(self, reason):
+        self.web.close_driver()
