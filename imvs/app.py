@@ -19,7 +19,7 @@ log.add(PATH.format('app.log'))
 def crawl():
     global filtro
     settings = get_project_settings()
-    # configure_logging()
+    #configure_logging()
     runner = CrawlerRunner(settings)
 
     if SPIDERS is None:

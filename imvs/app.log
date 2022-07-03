@@ -2357,3 +2357,492 @@ https://www.wimoveis.com.br/propriedades/vendo-lindo-ap-3qtos-com-suite-29595590
 2022-07-03 09:58:13.776 | INFO     | imvs.spiders.wimoveis:parse:219 - Pagina carregada com sucesso!
 2022-07-03 09:58:14.910 | INFO     | imvs.spiders.wimoveis:parse:229 - Requisição realizada com sucesso!
 2022-07-03 09:58:16.426 | INFO     | imvs.pipelines:close_spider:46 - Crawler finalizado.
+2022-07-03 10:09:12.296 | INFO     | __main__:<module>:50 - Iniciando o sistema.
+2022-07-03 10:09:12.305 | DEBUG    | __main__:crawl:39 - Crawling WimoveisSpider - apartamentos-venda-cruzeiro-brasilia.html
+2022-07-03 10:09:12.336 | INFO     | imvs.spiders.wimoveis:__init__:29 - Crawler iniciado: wimoveis
+2022-07-03 10:09:12.337 | DEBUG    | imvs.spiders.wimoveis:__init__:53 - Bairro: cruzeiro
+2022-07-03 10:09:12.337 | DEBUG    | imvs.spiders.wimoveis:__init__:54 - Id Bairro: 80252
+2022-07-03 10:09:12.338 | INFO     | imvs.spiders.wimoveis:__init__:58 - Filtro aplicado: apartamentos-venda-cruzeiro-brasilia-pagina-
+2022-07-03 10:09:12.338 | INFO     | imvs.spiders.wimoveis:__init__:65 - Abrindo navegador...
+2022-07-03 10:09:27.214 | INFO     | imvs.spiders.wimoveis:__init__:141 - Navegando na página: https://www.wimoveis.com.br/apartamentos-venda-cruzeiro-brasilia-pagina--1.html
+2022-07-03 10:09:27.223 | INFO     | imvs.spiders.wimoveis:__init__:145 - Pagina carregada com sucesso!
+2022-07-03 10:09:28.344 | INFO     | imvs.spiders.wimoveis:__init__:150 - Requisição realizada com sucesso!
+2022-07-03 10:09:29.254 | INFO     | imvs.spiders.wimoveis:parse:159 - Total de paginas: 3
+2022-07-03 10:09:29.255 | INFO     | imvs.spiders.wimoveis:parse:165 - Pagina atual: 1
+2022-07-03 10:09:29.256 | INFO     | imvs.spiders.wimoveis:parse:166 - Parsing...
+2022-07-03 10:09:29.257 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2962565200
+2022-07-03 10:09:29.258 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2955852624
+2022-07-03 10:09:29.258 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2952006052
+2022-07-03 10:09:29.259 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2959089394
+2022-07-03 10:09:29.260 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2953525199
+2022-07-03 10:09:29.261 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2966733141
+2022-07-03 10:09:29.262 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2965709363
+2022-07-03 10:09:29.262 | ERROR    | imvs.spiders.wimoveis:parse:212 - Erro ao parsear o imv: 2965540018
+2022-07-03 10:09:29.263 | ERROR    | imvs.spiders.wimoveis:parse:213 - Url do imv: https://www.wimoveis.com.br/propriedades/lindo-apartamento-todo-reformado-2965540018.html
+2022-07-03 10:09:29.263 | ERROR    | imvs.spiders.wimoveis:parse:214 - Erro: ("'NoneType' object is not subscriptable",)
+2022-07-03 10:09:29.263 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2965578035
+2022-07-03 10:09:29.264 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2966374131
+2022-07-03 10:09:29.265 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2966390175
+2022-07-03 10:09:29.267 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2961618474
+2022-07-03 10:09:29.269 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2966735810
+2022-07-03 10:09:29.270 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2960240637
+2022-07-03 10:09:29.271 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2965597504
+2022-07-03 10:09:29.272 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2966368984
+2022-07-03 10:09:29.273 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2961640485
+2022-07-03 10:09:29.274 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2963267946
+2022-07-03 10:09:29.275 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2957830188
+2022-07-03 10:09:29.276 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2962441351
+2022-07-03 10:09:32.317 | INFO     | imvs.spiders.wimoveis:parse:219 - Navegando na página: https://www.wimoveis.com.br/apartamentos-venda-cruzeiro-brasilia-pagina-2.html
+2022-07-03 10:09:32.385 | INFO     | imvs.spiders.wimoveis:parse:223 - Pagina carregada com sucesso!
+2022-07-03 10:09:33.688 | INFO     | imvs.spiders.wimoveis:parse:233 - Requisição realizada com sucesso!
+2022-07-03 10:09:35.200 | INFO     | imvs.spiders.wimoveis:parse:165 - Pagina atual: 2
+2022-07-03 10:09:35.201 | INFO     | imvs.spiders.wimoveis:parse:166 - Parsing...
+2022-07-03 10:09:35.203 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2940444801
+2022-07-03 10:09:35.205 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2951777249
+2022-07-03 10:09:35.208 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2962575216
+2022-07-03 10:09:35.210 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2955650997
+2022-07-03 10:09:35.212 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2959825146
+2022-07-03 10:09:35.213 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2966735934
+2022-07-03 10:09:35.215 | ERROR    | imvs.spiders.wimoveis:parse:212 - Erro ao parsear o imv: 2962214632
+2022-07-03 10:09:35.215 | ERROR    | imvs.spiders.wimoveis:parse:213 - Url do imv: https://www.wimoveis.com.br/propriedades/lindo-apartamento-3-qts-1-suite-vazado.-2962214632.html
+2022-07-03 10:09:35.215 | ERROR    | imvs.spiders.wimoveis:parse:214 - Erro: ("'NoneType' object is not subscriptable",)
+2022-07-03 10:09:35.216 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2966399573
+2022-07-03 10:09:35.218 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2963013458
+2022-07-03 10:09:35.219 | ERROR    | imvs.spiders.wimoveis:parse:212 - Erro ao parsear o imv: 2966180751
+2022-07-03 10:09:35.220 | ERROR    | imvs.spiders.wimoveis:parse:213 - Url do imv: https://www.wimoveis.com.br/propriedades/venda-de-apartamento-2966180751.html
+2022-07-03 10:09:35.221 | ERROR    | imvs.spiders.wimoveis:parse:214 - Erro: ("'NoneType' object is not subscriptable",)
+2022-07-03 10:09:35.222 | ERROR    | imvs.spiders.wimoveis:parse:212 - Erro ao parsear o imv: 2959559073
+2022-07-03 10:09:35.222 | ERROR    | imvs.spiders.wimoveis:parse:213 - Url do imv: https://www.wimoveis.com.br/propriedades/vendo-lindo-ap-3qtos-com-suite-2959559073.html
+2022-07-03 10:09:35.223 | ERROR    | imvs.spiders.wimoveis:parse:214 - Erro: ("'NoneType' object is not subscriptable",)
+2022-07-03 10:09:38.153 | INFO     | imvs.spiders.wimoveis:parse:219 - Navegando na página: https://www.wimoveis.com.br/apartamentos-venda-cruzeiro-brasilia-pagina-3.html
+2022-07-03 10:09:38.265 | INFO     | imvs.spiders.wimoveis:parse:223 - Pagina carregada com sucesso!
+2022-07-03 10:09:39.458 | INFO     | imvs.spiders.wimoveis:parse:233 - Requisição realizada com sucesso!
+2022-07-03 10:09:40.972 | INFO     | imvs.spiders.wimoveis:parse:165 - Pagina atual: 3
+2022-07-03 10:09:40.974 | INFO     | imvs.spiders.wimoveis:parse:166 - Parsing...
+2022-07-03 10:09:40.976 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2962563833
+2022-07-03 10:09:40.977 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2955417941
+2022-07-03 10:09:40.979 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2959010073
+2022-07-03 10:09:40.981 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2958111189
+2022-07-03 10:09:40.983 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2962564545
+2022-07-03 10:09:43.708 | INFO     | imvs.spiders.wimoveis:parse:219 - Navegando na página: https://www.wimoveis.com.br/apartamentos-venda-cruzeiro-brasilia-pagina-4.html
+2022-07-03 10:09:43.757 | INFO     | imvs.spiders.wimoveis:parse:223 - Pagina carregada com sucesso!
+2022-07-03 10:09:44.751 | INFO     | imvs.spiders.wimoveis:parse:233 - Requisição realizada com sucesso!
+2022-07-03 10:09:46.268 | INFO     | imvs.pipelines:close_spider:46 - Crawler finalizado.
+2022-07-03 10:18:15.070 | INFO     | __main__:<module>:50 - Iniciando o sistema.
+2022-07-03 10:18:15.078 | DEBUG    | __main__:crawl:39 - Crawling WimoveisSpider - apartamentos-venda-cruzeiro-brasilia.html
+2022-07-03 10:18:15.111 | INFO     | imvs.spiders.wimoveis:__init__:29 - Crawler iniciado: wimoveis
+2022-07-03 10:18:15.111 | DEBUG    | imvs.spiders.wimoveis:__init__:53 - Bairro: cruzeiro
+2022-07-03 10:18:15.111 | DEBUG    | imvs.spiders.wimoveis:__init__:54 - Id Bairro: 80252
+2022-07-03 10:18:15.111 | INFO     | imvs.spiders.wimoveis:__init__:58 - Filtro aplicado: apartamentos-venda-cruzeiro-brasilia-pagina-
+2022-07-03 10:18:15.112 | INFO     | imvs.spiders.wimoveis:__init__:65 - Abrindo navegador...
+2022-07-03 10:18:29.680 | INFO     | imvs.spiders.wimoveis:__init__:141 - Navegando na página: https://www.wimoveis.com.br/apartamentos-venda-cruzeiro-brasilia-pagina--1.html
+2022-07-03 10:18:29.693 | INFO     | imvs.spiders.wimoveis:__init__:145 - Pagina carregada com sucesso!
+2022-07-03 10:18:30.923 | INFO     | imvs.spiders.wimoveis:__init__:150 - Requisição realizada com sucesso!
+2022-07-03 10:18:31.608 | INFO     | imvs.spiders.wimoveis:parse:159 - Total de paginas: 3
+2022-07-03 10:18:31.609 | INFO     | imvs.spiders.wimoveis:parse:165 - Pagina atual: 1
+2022-07-03 10:18:31.610 | INFO     | imvs.spiders.wimoveis:parse:166 - Parsing...
+2022-07-03 10:18:31.610 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2962565200
+2022-07-03 10:18:31.612 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2955852624
+2022-07-03 10:18:31.613 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2952006052
+2022-07-03 10:18:31.615 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2959089394
+2022-07-03 10:18:31.616 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2955650997
+2022-07-03 10:18:31.617 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2966733141
+2022-07-03 10:18:31.619 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2965709363
+2022-07-03 10:18:31.620 | ERROR    | imvs.spiders.wimoveis:parse:214 - Erro ao parsear o imv: 2965540018
+2022-07-03 10:18:31.620 | ERROR    | imvs.spiders.wimoveis:parse:215 - Url do imv: https://www.wimoveis.com.br/propriedades/lindo-apartamento-todo-reformado-2965540018.html
+2022-07-03 10:18:31.621 | ERROR    | imvs.spiders.wimoveis:parse:216 - Erro: ("'NoneType' object is not subscriptable",)
+2022-07-03 10:18:31.621 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2965578035
+2022-07-03 10:18:31.622 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2966374131
+2022-07-03 10:18:31.623 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2961618474
+2022-07-03 10:18:31.625 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2966735810
+2022-07-03 10:18:31.626 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2966390175
+2022-07-03 10:18:31.627 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2965597504
+2022-07-03 10:18:31.629 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2961640485
+2022-07-03 10:18:31.629 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2963267946
+2022-07-03 10:18:31.630 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2960240637
+2022-07-03 10:18:31.631 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2966368984
+2022-07-03 10:18:31.631 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2962441351
+2022-07-03 10:18:31.632 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2966735934
+2022-07-03 10:18:34.768 | INFO     | imvs.spiders.wimoveis:parse:221 - Navegando na página: https://www.wimoveis.com.br/apartamentos-venda-cruzeiro-brasilia-pagina-2.html
+2022-07-03 10:18:34.862 | INFO     | imvs.spiders.wimoveis:parse:225 - Pagina carregada com sucesso!
+2022-07-03 10:18:36.039 | INFO     | imvs.spiders.wimoveis:parse:235 - Requisição realizada com sucesso!
+2022-07-03 10:18:37.552 | INFO     | imvs.spiders.wimoveis:parse:165 - Pagina atual: 2
+2022-07-03 10:18:37.553 | INFO     | imvs.spiders.wimoveis:parse:166 - Parsing...
+2022-07-03 10:18:37.554 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2940444801
+2022-07-03 10:18:37.557 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2959825146
+2022-07-03 10:18:37.558 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2962575575
+2022-07-03 10:18:37.560 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2943221932
+2022-07-03 10:18:37.561 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2962562023
+2022-07-03 10:18:37.562 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2957830188
+2022-07-03 10:18:37.563 | ERROR    | imvs.spiders.wimoveis:parse:214 - Erro ao parsear o imv: 2962214632
+2022-07-03 10:18:37.563 | ERROR    | imvs.spiders.wimoveis:parse:215 - Url do imv: https://www.wimoveis.com.br/propriedades/lindo-apartamento-3-qts-1-suite-vazado.-2962214632.html
+2022-07-03 10:18:37.564 | ERROR    | imvs.spiders.wimoveis:parse:216 - Erro: ("'NoneType' object is not subscriptable",)
+2022-07-03 10:18:37.564 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2963013458
+2022-07-03 10:18:37.565 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2966399573
+2022-07-03 10:18:37.567 | ERROR    | imvs.spiders.wimoveis:parse:214 - Erro ao parsear o imv: 2966180751
+2022-07-03 10:18:37.567 | ERROR    | imvs.spiders.wimoveis:parse:215 - Url do imv: https://www.wimoveis.com.br/propriedades/venda-de-apartamento-2966180751.html
+2022-07-03 10:18:37.568 | ERROR    | imvs.spiders.wimoveis:parse:216 - Erro: ("'NoneType' object is not subscriptable",)
+2022-07-03 10:18:37.568 | ERROR    | imvs.spiders.wimoveis:parse:214 - Erro ao parsear o imv: 2959559073
+2022-07-03 10:18:37.568 | ERROR    | imvs.spiders.wimoveis:parse:215 - Url do imv: https://www.wimoveis.com.br/propriedades/vendo-lindo-ap-3qtos-com-suite-2959559073.html
+2022-07-03 10:18:37.569 | ERROR    | imvs.spiders.wimoveis:parse:216 - Erro: ("'NoneType' object is not subscriptable",)
+2022-07-03 10:18:39.900 | INFO     | imvs.spiders.wimoveis:parse:221 - Navegando na página: https://www.wimoveis.com.br/apartamentos-venda-cruzeiro-brasilia-pagina-3.html
+2022-07-03 10:18:40.033 | INFO     | imvs.spiders.wimoveis:parse:225 - Pagina carregada com sucesso!
+2022-07-03 10:18:41.138 | INFO     | imvs.spiders.wimoveis:parse:235 - Requisição realizada com sucesso!
+2022-07-03 10:18:42.652 | INFO     | imvs.spiders.wimoveis:parse:165 - Pagina atual: 3
+2022-07-03 10:18:42.653 | INFO     | imvs.spiders.wimoveis:parse:166 - Parsing...
+2022-07-03 10:18:42.654 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2955417941
+2022-07-03 10:18:42.656 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2958111356
+2022-07-03 10:18:42.659 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2962564545
+2022-07-03 10:18:42.661 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2953525199
+2022-07-03 10:18:42.663 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2962575216
+2022-07-03 10:18:45.252 | INFO     | imvs.spiders.wimoveis:parse:221 - Navegando na página: https://www.wimoveis.com.br/apartamentos-venda-cruzeiro-brasilia-pagina-4.html
+2022-07-03 10:18:45.334 | INFO     | imvs.spiders.wimoveis:parse:225 - Pagina carregada com sucesso!
+2022-07-03 10:18:46.375 | INFO     | imvs.spiders.wimoveis:parse:235 - Requisição realizada com sucesso!
+2022-07-03 10:18:47.894 | INFO     | imvs.pipelines:close_spider:46 - Crawler finalizado.
+2022-07-03 10:20:45.930 | INFO     | __main__:<module>:50 - Iniciando o sistema.
+2022-07-03 10:20:45.942 | DEBUG    | __main__:crawl:39 - Crawling WimoveisSpider - apartamentos-venda-cruzeiro-brasilia.html
+2022-07-03 10:20:45.980 | INFO     | imvs.spiders.wimoveis:__init__:29 - Crawler iniciado: wimoveis
+2022-07-03 10:20:45.980 | DEBUG    | imvs.spiders.wimoveis:__init__:53 - Bairro: cruzeiro
+2022-07-03 10:20:45.981 | DEBUG    | imvs.spiders.wimoveis:__init__:54 - Id Bairro: 80252
+2022-07-03 10:20:45.981 | INFO     | imvs.spiders.wimoveis:__init__:58 - Filtro aplicado: apartamentos-venda-cruzeiro-brasilia-pagina-
+2022-07-03 10:20:45.981 | INFO     | imvs.spiders.wimoveis:__init__:65 - Abrindo navegador...
+2022-07-03 10:21:01.272 | INFO     | imvs.spiders.wimoveis:__init__:141 - Navegando na página: https://www.wimoveis.com.br/apartamentos-venda-cruzeiro-brasilia-pagina--1.html
+2022-07-03 10:21:01.280 | INFO     | imvs.spiders.wimoveis:__init__:145 - Pagina carregada com sucesso!
+2022-07-03 10:21:02.310 | INFO     | imvs.spiders.wimoveis:__init__:150 - Requisição realizada com sucesso!
+2022-07-03 10:21:03.351 | INFO     | imvs.spiders.wimoveis:parse:159 - Total de paginas: 3
+2022-07-03 10:21:03.351 | INFO     | imvs.spiders.wimoveis:parse:165 - Pagina atual: 1
+2022-07-03 10:21:03.352 | INFO     | imvs.spiders.wimoveis:parse:166 - Parsing...
+2022-07-03 10:21:03.352 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2962565200
+2022-07-03 10:21:03.353 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2959089394
+2022-07-03 10:21:03.355 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2952006052
+2022-07-03 10:21:03.357 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2955852624
+2022-07-03 10:21:03.358 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2962562023
+2022-07-03 10:21:03.359 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2966733141
+2022-07-03 10:21:03.360 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2965709363
+2022-07-03 10:21:03.361 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2965578035
+2022-07-03 10:21:03.362 | ERROR    | imvs.spiders.wimoveis:parse:216 - Erro ao parsear o imv: 2965540018
+2022-07-03 10:21:03.363 | ERROR    | imvs.spiders.wimoveis:parse:217 - Url do imv: https://www.wimoveis.com.br/propriedades/lindo-apartamento-todo-reformado-2965540018.html
+2022-07-03 10:21:03.363 | ERROR    | imvs.spiders.wimoveis:parse:218 - Erro: ("'NoneType' object is not subscriptable",)
+2022-07-03 10:21:03.364 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2961618474
+2022-07-03 10:21:03.365 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2966735810
+2022-07-03 10:21:03.366 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2966390175
+2022-07-03 10:21:03.366 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2966374131
+2022-07-03 10:21:03.367 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2965597504
+2022-07-03 10:21:03.368 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2963267946
+2022-07-03 10:21:03.369 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2966368984
+2022-07-03 10:21:03.369 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2961640485
+2022-07-03 10:21:03.370 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2960240637
+2022-07-03 10:21:03.371 | ERROR    | imvs.spiders.wimoveis:parse:216 - Erro ao parsear o imv: 2962214632
+2022-07-03 10:21:03.371 | ERROR    | imvs.spiders.wimoveis:parse:217 - Url do imv: https://www.wimoveis.com.br/propriedades/lindo-apartamento-3-qts-1-suite-vazado.-2962214632.html
+2022-07-03 10:21:03.372 | ERROR    | imvs.spiders.wimoveis:parse:218 - Erro: ("'NoneType' object is not subscriptable",)
+2022-07-03 10:21:03.372 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2957830188
+2022-07-03 10:21:06.508 | INFO     | imvs.spiders.wimoveis:parse:223 - Navegando na página: https://www.wimoveis.com.br/apartamentos-venda-cruzeiro-brasilia-pagina-2.html
+2022-07-03 10:21:06.554 | INFO     | imvs.spiders.wimoveis:parse:227 - Pagina carregada com sucesso!
+2022-07-03 10:21:07.875 | INFO     | imvs.spiders.wimoveis:parse:237 - Requisição realizada com sucesso!
+2022-07-03 10:21:09.392 | INFO     | imvs.spiders.wimoveis:parse:165 - Pagina atual: 2
+2022-07-03 10:21:09.394 | INFO     | imvs.spiders.wimoveis:parse:166 - Parsing...
+2022-07-03 10:21:09.395 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2940444801
+2022-07-03 10:21:09.399 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2962563833
+2022-07-03 10:21:09.401 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2962575575
+2022-07-03 10:21:09.403 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2951777249
+2022-07-03 10:21:09.405 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2953525199
+2022-07-03 10:21:09.407 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2966735934
+2022-07-03 10:21:09.408 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2962441351
+2022-07-03 10:21:09.409 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2963013458
+2022-07-03 10:21:09.410 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2966399573
+2022-07-03 10:21:09.411 | ERROR    | imvs.spiders.wimoveis:parse:216 - Erro ao parsear o imv: 2959559073
+2022-07-03 10:21:09.411 | ERROR    | imvs.spiders.wimoveis:parse:217 - Url do imv: https://www.wimoveis.com.br/propriedades/vendo-lindo-ap-3qtos-com-suite-2959559073.html
+2022-07-03 10:21:09.411 | ERROR    | imvs.spiders.wimoveis:parse:218 - Erro: ("'NoneType' object is not subscriptable",)
+2022-07-03 10:21:09.412 | ERROR    | imvs.spiders.wimoveis:parse:216 - Erro ao parsear o imv: 2966180751
+2022-07-03 10:21:09.412 | ERROR    | imvs.spiders.wimoveis:parse:217 - Url do imv: https://www.wimoveis.com.br/propriedades/venda-de-apartamento-2966180751.html
+2022-07-03 10:21:09.412 | ERROR    | imvs.spiders.wimoveis:parse:218 - Erro: ("'NoneType' object is not subscriptable",)
+2022-07-03 10:21:12.697 | INFO     | imvs.spiders.wimoveis:parse:223 - Navegando na página: https://www.wimoveis.com.br/apartamentos-venda-cruzeiro-brasilia-pagina-3.html
+2022-07-03 10:21:12.835 | INFO     | imvs.spiders.wimoveis:parse:227 - Pagina carregada com sucesso!
+2022-07-03 10:21:14.636 | INFO     | imvs.spiders.wimoveis:parse:237 - Requisição realizada com sucesso!
+2022-07-03 10:21:16.149 | INFO     | imvs.spiders.wimoveis:parse:165 - Pagina atual: 3
+2022-07-03 10:21:16.150 | INFO     | imvs.spiders.wimoveis:parse:166 - Parsing...
+2022-07-03 10:21:16.152 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2958111356
+2022-07-03 10:21:16.155 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2959007508
+2022-07-03 10:21:16.157 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2962575575
+2022-07-03 10:21:16.158 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2962562023
+2022-07-03 10:21:16.159 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2965213616
+2022-07-03 10:21:19.030 | INFO     | imvs.spiders.wimoveis:parse:223 - Navegando na página: https://www.wimoveis.com.br/apartamentos-venda-cruzeiro-brasilia-pagina-4.html
+2022-07-03 10:21:19.090 | INFO     | imvs.spiders.wimoveis:parse:227 - Pagina carregada com sucesso!
+2022-07-03 10:21:19.832 | INFO     | imvs.spiders.wimoveis:parse:237 - Requisição realizada com sucesso!
+2022-07-03 10:21:21.352 | INFO     | imvs.pipelines:close_spider:46 - Crawler finalizado.
+2022-07-03 10:23:38.119 | INFO     | __main__:<module>:50 - Iniciando o sistema.
+2022-07-03 10:23:38.131 | DEBUG    | __main__:crawl:39 - Crawling WimoveisSpider - apartamentos-venda-cruzeiro-brasilia.html
+2022-07-03 10:23:38.170 | INFO     | imvs.spiders.wimoveis:__init__:29 - Crawler iniciado: wimoveis
+2022-07-03 10:23:38.170 | DEBUG    | imvs.spiders.wimoveis:__init__:53 - Bairro: cruzeiro
+2022-07-03 10:23:38.170 | DEBUG    | imvs.spiders.wimoveis:__init__:54 - Id Bairro: 80252
+2022-07-03 10:23:38.170 | INFO     | imvs.spiders.wimoveis:__init__:58 - Filtro aplicado: apartamentos-venda-cruzeiro-brasilia-pagina-
+2022-07-03 10:23:38.171 | INFO     | imvs.spiders.wimoveis:__init__:65 - Abrindo navegador...
+2022-07-03 10:23:52.692 | INFO     | imvs.spiders.wimoveis:__init__:141 - Navegando na página: https://www.wimoveis.com.br/apartamentos-venda-cruzeiro-brasilia-pagina--1.html
+2022-07-03 10:23:52.702 | INFO     | imvs.spiders.wimoveis:__init__:145 - Pagina carregada com sucesso!
+2022-07-03 10:23:53.792 | INFO     | imvs.spiders.wimoveis:__init__:150 - Requisição realizada com sucesso!
+2022-07-03 10:23:54.507 | INFO     | imvs.spiders.wimoveis:parse:159 - Total de paginas: 3
+2022-07-03 10:23:54.508 | INFO     | imvs.spiders.wimoveis:parse:165 - Pagina atual: 1
+2022-07-03 10:23:54.509 | INFO     | imvs.spiders.wimoveis:parse:166 - Parsing...
+2022-07-03 10:23:54.511 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2962565200
+2022-07-03 10:23:54.513 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2959089394
+2022-07-03 10:23:54.514 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2952006052
+2022-07-03 10:23:54.516 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2955852624
+2022-07-03 10:23:54.517 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2962563833
+2022-07-03 10:23:54.518 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2966733141
+2022-07-03 10:23:54.519 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2965709363
+2022-07-03 10:23:54.521 | ERROR    | imvs.spiders.wimoveis:parse:216 - Erro ao parsear o imv: 2965540018
+2022-07-03 10:23:54.521 | ERROR    | imvs.spiders.wimoveis:parse:217 - Url do imv: https://www.wimoveis.com.br/propriedades/lindo-apartamento-todo-reformado-2965540018.html
+2022-07-03 10:23:54.522 | ERROR    | imvs.spiders.wimoveis:parse:218 - Erro: <traceback object at 0x7f6bcfb44d00>
+2022-07-03 10:23:54.522 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2965578035
+2022-07-03 10:23:54.524 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2966390175
+2022-07-03 10:23:54.525 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2961618474
+2022-07-03 10:23:54.526 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2966735810
+2022-07-03 10:23:54.528 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2966374131
+2022-07-03 10:23:54.529 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2961640485
+2022-07-03 10:23:54.531 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2965597504
+2022-07-03 10:23:54.532 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2960240637
+2022-07-03 10:23:54.533 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2966368984
+2022-07-03 10:23:54.534 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2963267946
+2022-07-03 10:23:54.535 | ERROR    | imvs.spiders.wimoveis:parse:216 - Erro ao parsear o imv: 2962214632
+2022-07-03 10:23:54.536 | ERROR    | imvs.spiders.wimoveis:parse:217 - Url do imv: https://www.wimoveis.com.br/propriedades/lindo-apartamento-3-qts-1-suite-vazado.-2962214632.html
+2022-07-03 10:23:54.538 | ERROR    | imvs.spiders.wimoveis:parse:218 - Erro: <traceback object at 0x7f6bcfb4cc80>
+2022-07-03 10:23:54.538 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2966735934
+2022-07-03 10:23:57.470 | INFO     | imvs.spiders.wimoveis:parse:223 - Navegando na página: https://www.wimoveis.com.br/apartamentos-venda-cruzeiro-brasilia-pagina-2.html
+2022-07-03 10:23:57.550 | INFO     | imvs.spiders.wimoveis:parse:227 - Pagina carregada com sucesso!
+2022-07-03 10:23:58.622 | INFO     | imvs.spiders.wimoveis:parse:237 - Requisição realizada com sucesso!
+2022-07-03 10:24:00.140 | INFO     | imvs.spiders.wimoveis:parse:165 - Pagina atual: 2
+2022-07-03 10:24:00.141 | INFO     | imvs.spiders.wimoveis:parse:166 - Parsing...
+2022-07-03 10:24:00.143 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2959007508
+2022-07-03 10:24:00.145 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2948712297
+2022-07-03 10:24:00.148 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2958111356
+2022-07-03 10:24:00.149 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2962564545
+2022-07-03 10:24:00.150 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2955650997
+2022-07-03 10:24:00.150 | ERROR    | imvs.spiders.wimoveis:parse:216 - Erro ao parsear o imv: 2962214632
+2022-07-03 10:24:00.151 | ERROR    | imvs.spiders.wimoveis:parse:217 - Url do imv: https://www.wimoveis.com.br/propriedades/lindo-apartamento-3-qts-1-suite-vazado.-2962214632.html
+2022-07-03 10:24:00.151 | ERROR    | imvs.spiders.wimoveis:parse:218 - Erro: <traceback object at 0x7f6bd083bbc0>
+2022-07-03 10:24:00.151 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2957830188
+2022-07-03 10:24:00.152 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2966399573
+2022-07-03 10:24:00.153 | ERROR    | imvs.spiders.wimoveis:parse:216 - Erro ao parsear o imv: 2959559073
+2022-07-03 10:24:00.153 | ERROR    | imvs.spiders.wimoveis:parse:217 - Url do imv: https://www.wimoveis.com.br/propriedades/vendo-lindo-ap-3qtos-com-suite-2959559073.html
+2022-07-03 10:24:00.153 | ERROR    | imvs.spiders.wimoveis:parse:218 - Erro: <traceback object at 0x7f6bd083b640>
+2022-07-03 10:24:00.154 | ERROR    | imvs.spiders.wimoveis:parse:216 - Erro ao parsear o imv: 2966180751
+2022-07-03 10:24:00.154 | ERROR    | imvs.spiders.wimoveis:parse:217 - Url do imv: https://www.wimoveis.com.br/propriedades/venda-de-apartamento-2966180751.html
+2022-07-03 10:24:00.154 | ERROR    | imvs.spiders.wimoveis:parse:218 - Erro: <traceback object at 0x7f6bd083b640>
+2022-07-03 10:24:00.155 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2963013458
+2022-07-03 10:24:08.739 | INFO     | imvs.spiders.wimoveis:parse:223 - Navegando na página: https://www.wimoveis.com.br/apartamentos-venda-cruzeiro-brasilia-pagina-3.html
+2022-07-03 10:24:09.053 | INFO     | imvs.spiders.wimoveis:parse:227 - Pagina carregada com sucesso!
+2022-07-03 10:24:09.924 | INFO     | imvs.spiders.wimoveis:parse:237 - Requisição realizada com sucesso!
+2022-07-03 10:24:11.437 | INFO     | imvs.spiders.wimoveis:parse:165 - Pagina atual: 3
+2022-07-03 10:24:11.438 | INFO     | imvs.spiders.wimoveis:parse:166 - Parsing...
+2022-07-03 10:24:11.439 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2959825146
+2022-07-03 10:24:11.442 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2950188135
+2022-07-03 10:24:11.444 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2955417941
+2022-07-03 10:24:11.446 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2943221932
+2022-07-03 10:24:11.448 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2965213616
+2022-07-03 10:24:19.205 | INFO     | imvs.spiders.wimoveis:parse:223 - Navegando na página: https://www.wimoveis.com.br/apartamentos-venda-cruzeiro-brasilia-pagina-4.html
+2022-07-03 10:24:19.315 | INFO     | imvs.spiders.wimoveis:parse:227 - Pagina carregada com sucesso!
+2022-07-03 10:24:20.363 | INFO     | imvs.spiders.wimoveis:parse:237 - Requisição realizada com sucesso!
+2022-07-03 10:24:21.881 | INFO     | imvs.pipelines:close_spider:46 - Crawler finalizado.
+2022-07-03 10:26:00.051 | INFO     | __main__:<module>:50 - Iniciando o sistema.
+2022-07-03 10:26:00.061 | DEBUG    | __main__:crawl:39 - Crawling WimoveisSpider - apartamentos-venda-cruzeiro-brasilia.html
+2022-07-03 10:26:00.103 | INFO     | imvs.spiders.wimoveis:__init__:29 - Crawler iniciado: wimoveis
+2022-07-03 10:26:00.104 | DEBUG    | imvs.spiders.wimoveis:__init__:53 - Bairro: cruzeiro
+2022-07-03 10:26:00.104 | DEBUG    | imvs.spiders.wimoveis:__init__:54 - Id Bairro: 80252
+2022-07-03 10:26:00.104 | INFO     | imvs.spiders.wimoveis:__init__:58 - Filtro aplicado: apartamentos-venda-cruzeiro-brasilia-pagina-
+2022-07-03 10:26:00.105 | INFO     | imvs.spiders.wimoveis:__init__:65 - Abrindo navegador...
+2022-07-03 10:26:14.556 | INFO     | imvs.spiders.wimoveis:__init__:141 - Navegando na página: https://www.wimoveis.com.br/apartamentos-venda-cruzeiro-brasilia-pagina--1.html
+2022-07-03 10:26:14.565 | INFO     | imvs.spiders.wimoveis:__init__:145 - Pagina carregada com sucesso!
+2022-07-03 10:26:15.586 | INFO     | imvs.spiders.wimoveis:__init__:150 - Requisição realizada com sucesso!
+2022-07-03 10:26:16.364 | INFO     | imvs.spiders.wimoveis:parse:159 - Total de paginas: 3
+2022-07-03 10:26:16.365 | INFO     | imvs.spiders.wimoveis:parse:165 - Pagina atual: 1
+2022-07-03 10:26:16.366 | INFO     | imvs.spiders.wimoveis:parse:166 - Parsing...
+2022-07-03 10:26:16.367 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2962565200
+2022-07-03 10:26:16.369 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2955852624
+2022-07-03 10:26:16.371 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2952006052
+2022-07-03 10:26:16.373 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2959089394
+2022-07-03 10:26:16.375 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2962562023
+2022-07-03 10:26:16.377 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2966733141
+2022-07-03 10:26:16.378 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2965709363
+2022-07-03 10:26:16.380 | ERROR    | imvs.spiders.wimoveis:parse:216 - Erro ao parsear o imv: 2965540018
+2022-07-03 10:26:16.380 | ERROR    | imvs.spiders.wimoveis:parse:217 - Url do imv: https://www.wimoveis.com.br/propriedades/lindo-apartamento-todo-reformado-2965540018.html
+2022-07-03 10:26:16.381 | ERROR    | imvs.spiders.wimoveis:parse:218 - Erro: <traceback object at 0x7fe9fced5a80>
+2022-07-03 10:26:16.381 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2965578035
+2022-07-03 10:26:16.382 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2961618474
+2022-07-03 10:26:16.384 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2966735810
+2022-07-03 10:26:16.386 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2966374131
+2022-07-03 10:26:16.389 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2966390175
+2022-07-03 10:26:16.391 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2966368984
+2022-07-03 10:26:16.393 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2963267946
+2022-07-03 10:26:16.396 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2961640485
+2022-07-03 10:26:16.400 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2960240637
+2022-07-03 10:26:16.402 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2965597504
+2022-07-03 10:26:16.404 | ERROR    | imvs.spiders.wimoveis:parse:216 - Erro ao parsear o imv: 2962214632
+2022-07-03 10:26:16.404 | ERROR    | imvs.spiders.wimoveis:parse:217 - Url do imv: https://www.wimoveis.com.br/propriedades/lindo-apartamento-3-qts-1-suite-vazado.-2962214632.html
+2022-07-03 10:26:16.405 | ERROR    | imvs.spiders.wimoveis:parse:218 - Erro: <traceback object at 0x7fe9fced7c00>
+2022-07-03 10:26:16.405 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2962441351
+2022-07-03 10:26:19.865 | INFO     | imvs.spiders.wimoveis:parse:223 - Navegando na página: https://www.wimoveis.com.br/apartamentos-venda-cruzeiro-brasilia-pagina-2.html
+2022-07-03 10:26:19.901 | INFO     | imvs.spiders.wimoveis:parse:227 - Pagina carregada com sucesso!
+2022-07-03 10:26:21.321 | INFO     | imvs.spiders.wimoveis:parse:237 - Requisição realizada com sucesso!
+2022-07-03 10:26:22.840 | INFO     | imvs.spiders.wimoveis:parse:165 - Pagina atual: 2
+2022-07-03 10:26:22.841 | INFO     | imvs.spiders.wimoveis:parse:166 - Parsing...
+2022-07-03 10:26:22.842 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2940444801
+2022-07-03 10:26:22.846 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2959007508
+2022-07-03 10:26:22.849 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2955650997
+2022-07-03 10:26:22.850 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2962564545
+2022-07-03 10:26:22.852 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2958111189
+2022-07-03 10:26:22.854 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2966735934
+2022-07-03 10:26:22.857 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2957830188
+2022-07-03 10:26:22.860 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2963013458
+2022-07-03 10:26:22.862 | ERROR    | imvs.spiders.wimoveis:parse:216 - Erro ao parsear o imv: 2959559073
+2022-07-03 10:26:22.862 | ERROR    | imvs.spiders.wimoveis:parse:217 - Url do imv: https://www.wimoveis.com.br/propriedades/vendo-lindo-ap-3qtos-com-suite-2959559073.html
+2022-07-03 10:26:22.863 | ERROR    | imvs.spiders.wimoveis:parse:218 - Erro: <traceback object at 0x7fe9fdbc5080>
+2022-07-03 10:26:22.863 | ERROR    | imvs.spiders.wimoveis:parse:216 - Erro ao parsear o imv: 2966180751
+2022-07-03 10:26:22.864 | ERROR    | imvs.spiders.wimoveis:parse:217 - Url do imv: https://www.wimoveis.com.br/propriedades/venda-de-apartamento-2966180751.html
+2022-07-03 10:26:22.864 | ERROR    | imvs.spiders.wimoveis:parse:218 - Erro: <traceback object at 0x7fe9fdbc5080>
+2022-07-03 10:26:22.864 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2966399573
+2022-07-03 10:26:30.691 | INFO     | imvs.spiders.wimoveis:parse:223 - Navegando na página: https://www.wimoveis.com.br/apartamentos-venda-cruzeiro-brasilia-pagina-3.html
+2022-07-03 10:26:30.843 | INFO     | imvs.spiders.wimoveis:parse:227 - Pagina carregada com sucesso!
+2022-07-03 10:26:31.818 | INFO     | imvs.spiders.wimoveis:parse:237 - Requisição realizada com sucesso!
+2022-07-03 10:26:33.332 | INFO     | imvs.spiders.wimoveis:parse:165 - Pagina atual: 3
+2022-07-03 10:26:33.333 | INFO     | imvs.spiders.wimoveis:parse:166 - Parsing...
+2022-07-03 10:26:33.334 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2959825146
+2022-07-03 10:26:33.338 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2965213616
+2022-07-03 10:26:33.341 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2948712297
+2022-07-03 10:26:33.342 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2959010073
+2022-07-03 10:26:33.343 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2962575216
+2022-07-03 10:26:40.900 | INFO     | imvs.spiders.wimoveis:parse:223 - Navegando na página: https://www.wimoveis.com.br/apartamentos-venda-cruzeiro-brasilia-pagina-4.html
+2022-07-03 10:26:40.950 | INFO     | imvs.spiders.wimoveis:parse:227 - Pagina carregada com sucesso!
+2022-07-03 10:26:42.038 | INFO     | imvs.spiders.wimoveis:parse:237 - Requisição realizada com sucesso!
+2022-07-03 10:26:43.556 | INFO     | imvs.pipelines:close_spider:46 - Crawler finalizado.
+2022-07-03 10:32:36.874 | INFO     | __main__:<module>:50 - Iniciando o sistema.
+2022-07-03 10:32:36.882 | DEBUG    | __main__:crawl:39 - Crawling WimoveisSpider - apartamentos-venda-cruzeiro-brasilia.html
+2022-07-03 10:32:36.939 | INFO     | imvs.spiders.wimoveis:__init__:29 - Crawler iniciado: wimoveis
+2022-07-03 10:32:36.939 | DEBUG    | imvs.spiders.wimoveis:__init__:53 - Bairro: cruzeiro
+2022-07-03 10:32:36.939 | DEBUG    | imvs.spiders.wimoveis:__init__:54 - Id Bairro: 80252
+2022-07-03 10:32:36.940 | INFO     | imvs.spiders.wimoveis:__init__:58 - Filtro aplicado: apartamentos-venda-cruzeiro-brasilia-pagina-
+2022-07-03 10:32:36.941 | INFO     | imvs.spiders.wimoveis:__init__:65 - Abrindo navegador...
+2022-07-03 10:32:51.494 | INFO     | imvs.spiders.wimoveis:__init__:141 - Navegando na página: https://www.wimoveis.com.br/apartamentos-venda-cruzeiro-brasilia-pagina--1.html
+2022-07-03 10:32:51.511 | INFO     | imvs.spiders.wimoveis:__init__:145 - Pagina carregada com sucesso!
+2022-07-03 10:32:52.672 | INFO     | imvs.spiders.wimoveis:__init__:150 - Requisição realizada com sucesso!
+2022-07-03 10:32:53.387 | INFO     | imvs.spiders.wimoveis:parse:159 - Total de paginas: 3
+2022-07-03 10:32:53.388 | INFO     | imvs.spiders.wimoveis:parse:165 - Pagina atual: 1
+2022-07-03 10:32:53.389 | INFO     | imvs.spiders.wimoveis:parse:166 - Parsing...
+2022-07-03 10:32:53.391 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2962565200
+2022-07-03 10:32:53.393 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2955852624
+2022-07-03 10:32:53.394 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2959089394
+2022-07-03 10:32:53.394 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2952006052
+2022-07-03 10:32:53.395 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2962562023
+2022-07-03 10:32:53.396 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2966733141
+2022-07-03 10:32:53.396 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2965709363
+2022-07-03 10:32:53.397 | ERROR    | imvs.spiders.wimoveis:parse:217 - Erro ao parsear o imv: 2965540018
+2022-07-03 10:32:53.397 | ERROR    | imvs.spiders.wimoveis:parse:218 - Url do imv: https://www.wimoveis.com.br/propriedades/lindo-apartamento-todo-reformado-2965540018.html
+2022-07-03 10:32:53.398 | ERROR    | imvs.spiders.wimoveis:parse:219 - Erro: <traceback object at 0x7fbf410e3540>
+2022-07-03 10:32:53.398 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2965578035
+2022-07-03 10:32:53.399 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2966735810
+2022-07-03 10:32:53.399 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2966390175
+2022-07-03 10:32:53.400 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2966374131
+2022-07-03 10:32:53.401 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2961618474
+2022-07-03 10:32:53.401 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2961640485
+2022-07-03 10:32:53.402 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2963267946
+2022-07-03 10:32:53.403 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2965597504
+2022-07-03 10:32:53.404 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2960240637
+2022-07-03 10:32:53.405 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2966368984
+2022-07-03 10:32:53.405 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2957830188
+2022-07-03 10:32:53.406 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2966735934
+2022-07-03 10:32:57.913 | INFO     | imvs.spiders.wimoveis:parse:224 - Navegando na página: https://www.wimoveis.com.br/apartamentos-venda-cruzeiro-brasilia-pagina-2.html
+2022-07-03 10:32:57.975 | INFO     | imvs.spiders.wimoveis:parse:228 - Pagina carregada com sucesso!
+2022-07-03 10:32:58.901 | INFO     | imvs.spiders.wimoveis:parse:238 - Requisição realizada com sucesso!
+2022-07-03 10:33:00.420 | INFO     | imvs.spiders.wimoveis:parse:165 - Pagina atual: 2
+2022-07-03 10:33:00.421 | INFO     | imvs.spiders.wimoveis:parse:166 - Parsing...
+2022-07-03 10:33:00.422 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2962564545
+2022-07-03 10:33:00.424 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2955650997
+2022-07-03 10:33:00.426 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2959825146
+2022-07-03 10:33:00.428 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2965213616
+2022-07-03 10:33:00.429 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2950188135
+2022-07-03 10:33:00.430 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2957830188
+2022-07-03 10:33:00.432 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2962441351
+2022-07-03 10:33:00.433 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2963013458
+2022-07-03 10:33:00.435 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2966399573
+2022-07-03 10:33:00.436 | ERROR    | imvs.spiders.wimoveis:parse:217 - Erro ao parsear o imv: 2966180751
+2022-07-03 10:33:00.437 | ERROR    | imvs.spiders.wimoveis:parse:218 - Url do imv: https://www.wimoveis.com.br/propriedades/venda-de-apartamento-2966180751.html
+2022-07-03 10:33:00.437 | ERROR    | imvs.spiders.wimoveis:parse:219 - Erro: <traceback object at 0x7fbf41d612c0>
+2022-07-03 10:33:00.438 | ERROR    | imvs.spiders.wimoveis:parse:217 - Erro ao parsear o imv: 2959559073
+2022-07-03 10:33:00.438 | ERROR    | imvs.spiders.wimoveis:parse:218 - Url do imv: https://www.wimoveis.com.br/propriedades/vendo-lindo-ap-3qtos-com-suite-2959559073.html
+2022-07-03 10:33:00.439 | ERROR    | imvs.spiders.wimoveis:parse:219 - Erro: <traceback object at 0x7fbf41d612c0>
+2022-07-03 10:33:03.997 | INFO     | imvs.spiders.wimoveis:parse:224 - Navegando na página: https://www.wimoveis.com.br/apartamentos-venda-cruzeiro-brasilia-pagina-3.html
+2022-07-03 10:33:04.136 | INFO     | imvs.spiders.wimoveis:parse:228 - Pagina carregada com sucesso!
+2022-07-03 10:33:04.985 | INFO     | imvs.spiders.wimoveis:parse:238 - Requisição realizada com sucesso!
+2022-07-03 10:33:06.496 | INFO     | imvs.spiders.wimoveis:parse:165 - Pagina atual: 3
+2022-07-03 10:33:06.497 | INFO     | imvs.spiders.wimoveis:parse:166 - Parsing...
+2022-07-03 10:33:06.497 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2958111356
+2022-07-03 10:33:06.499 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2943221932
+2022-07-03 10:33:06.510 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2948712297
+2022-07-03 10:33:06.511 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2959010073
+2022-07-03 10:33:06.517 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2958111189
+2022-07-03 10:33:09.793 | INFO     | imvs.spiders.wimoveis:parse:224 - Navegando na página: https://www.wimoveis.com.br/apartamentos-venda-cruzeiro-brasilia-pagina-4.html
+2022-07-03 10:33:10.134 | INFO     | imvs.spiders.wimoveis:parse:228 - Pagina carregada com sucesso!
+2022-07-03 10:33:10.912 | INFO     | imvs.spiders.wimoveis:parse:238 - Requisição realizada com sucesso!
+2022-07-03 10:33:12.432 | INFO     | imvs.pipelines:close_spider:46 - Crawler finalizado.
+2022-07-03 10:39:48.097 | INFO     | __main__:<module>:50 - Iniciando o sistema.
+2022-07-03 10:39:48.106 | DEBUG    | __main__:crawl:39 - Crawling WimoveisSpider - apartamentos-venda-cruzeiro-brasilia.html
+2022-07-03 10:39:48.141 | INFO     | imvs.spiders.wimoveis:__init__:29 - Crawler iniciado: wimoveis
+2022-07-03 10:39:48.141 | DEBUG    | imvs.spiders.wimoveis:__init__:53 - Bairro: cruzeiro
+2022-07-03 10:39:48.142 | DEBUG    | imvs.spiders.wimoveis:__init__:54 - Id Bairro: 80252
+2022-07-03 10:39:48.142 | INFO     | imvs.spiders.wimoveis:__init__:58 - Filtro aplicado: apartamentos-venda-cruzeiro-brasilia-pagina-
+2022-07-03 10:39:48.142 | INFO     | imvs.spiders.wimoveis:__init__:65 - Abrindo navegador...
+2022-07-03 10:40:05.642 | INFO     | imvs.spiders.wimoveis:__init__:141 - Navegando na página: https://www.wimoveis.com.br/apartamentos-venda-cruzeiro-brasilia-pagina--1.html
+2022-07-03 10:40:05.652 | INFO     | imvs.spiders.wimoveis:__init__:145 - Pagina carregada com sucesso!
+2022-07-03 10:40:06.744 | INFO     | imvs.spiders.wimoveis:__init__:150 - Requisição realizada com sucesso!
+2022-07-03 10:40:07.434 | INFO     | imvs.spiders.wimoveis:parse:159 - Total de paginas: 3
+2022-07-03 10:40:07.435 | INFO     | imvs.spiders.wimoveis:parse:165 - Pagina atual: 1
+2022-07-03 10:40:07.435 | INFO     | imvs.spiders.wimoveis:parse:166 - Parsing...
+2022-07-03 10:40:07.436 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2962565200
+2022-07-03 10:40:07.438 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2952006052
+2022-07-03 10:40:07.439 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2959089394
+2022-07-03 10:40:07.441 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2955852624
+2022-07-03 10:40:07.442 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2951777249
+2022-07-03 10:40:07.443 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2966733141
+2022-07-03 10:40:07.445 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2965709363
+2022-07-03 10:40:07.446 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2965578035
+2022-07-03 10:40:07.448 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2965540018
+2022-07-03 10:40:07.449 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2961618474
+2022-07-03 10:40:07.451 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2966374131
+2022-07-03 10:40:07.452 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2966390175
+2022-07-03 10:40:07.453 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2966735810
+2022-07-03 10:40:07.453 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2965597504
+2022-07-03 10:40:07.454 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2963267946
+2022-07-03 10:40:07.455 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2960240637
+2022-07-03 10:40:07.457 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2961640485
+2022-07-03 10:40:07.458 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2966368984
+2022-07-03 10:40:07.458 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2966735934
+2022-07-03 10:40:07.460 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2962214632
+2022-07-03 10:40:10.389 | INFO     | imvs.spiders.wimoveis:parse:225 - Navegando na página: https://www.wimoveis.com.br/apartamentos-venda-cruzeiro-brasilia-pagina-2.html
+2022-07-03 10:40:10.481 | INFO     | imvs.spiders.wimoveis:parse:229 - Pagina carregada com sucesso!
+2022-07-03 10:40:11.753 | INFO     | imvs.spiders.wimoveis:parse:239 - Requisição realizada com sucesso!
+2022-07-03 10:40:13.272 | INFO     | imvs.spiders.wimoveis:parse:165 - Pagina atual: 2
+2022-07-03 10:40:13.273 | INFO     | imvs.spiders.wimoveis:parse:166 - Parsing...
+2022-07-03 10:40:13.274 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2959007508
+2022-07-03 10:40:13.277 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2958111356
+2022-07-03 10:40:13.279 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2962562023
+2022-07-03 10:40:13.281 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2948712297
+2022-07-03 10:40:13.282 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2950188135
+2022-07-03 10:40:13.284 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2962441351
+2022-07-03 10:40:13.285 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2957830188
+2022-07-03 10:40:13.286 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2966180751
+2022-07-03 10:40:13.287 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2959559073
+2022-07-03 10:40:13.288 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2966399573
+2022-07-03 10:40:13.289 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2963013458
+2022-07-03 10:40:15.829 | INFO     | imvs.spiders.wimoveis:parse:225 - Navegando na página: https://www.wimoveis.com.br/apartamentos-venda-cruzeiro-brasilia-pagina-3.html
+2022-07-03 10:40:15.980 | INFO     | imvs.spiders.wimoveis:parse:229 - Pagina carregada com sucesso!
+2022-07-03 10:40:17.061 | INFO     | imvs.spiders.wimoveis:parse:239 - Requisição realizada com sucesso!
+2022-07-03 10:40:18.573 | INFO     | imvs.spiders.wimoveis:parse:165 - Pagina atual: 3
+2022-07-03 10:40:18.573 | INFO     | imvs.spiders.wimoveis:parse:166 - Parsing...
+2022-07-03 10:40:18.574 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2959007508
+2022-07-03 10:40:18.577 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2955417941
+2022-07-03 10:40:18.579 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2962562023
+2022-07-03 10:40:18.581 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2948712297
+2022-07-03 10:40:18.582 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2962563833
+2022-07-03 10:40:21.372 | INFO     | imvs.spiders.wimoveis:parse:225 - Navegando na página: https://www.wimoveis.com.br/apartamentos-venda-cruzeiro-brasilia-pagina-4.html
+2022-07-03 10:40:21.420 | INFO     | imvs.spiders.wimoveis:parse:229 - Pagina carregada com sucesso!
+2022-07-03 10:40:22.569 | INFO     | imvs.spiders.wimoveis:parse:239 - Requisição realizada com sucesso!
+2022-07-03 10:40:24.088 | INFO     | imvs.pipelines:close_spider:46 - Crawler finalizado.

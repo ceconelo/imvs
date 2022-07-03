@@ -174,9 +174,19 @@ class WimoveisSpider(scrapy.Spider):
                     item['data_publicacao'] = ''
                     item['atualizacao'] = imv['modified_date'].split('T')[0]
                     item['cod_imovel'] = cod_imovel
-                    item['anunciante'] = imv['publisher']['name']
-                    item['creci'] = imv['publisher']['license']
-                    item['endereco'] = imv['postingLocation']['address']['name']
+
+                    if imv['publisher'] is not None:
+                        if 'name' in imv['publisher']:
+                            item['anunciante'] = imv['publisher']['name']
+                        if 'license' in imv['publisher']:
+                            item['creci'] = imv['publisher']['license']
+
+                    if imv['postingLocation'] is not None:
+                        if 'address' in imv['postingLocation']:
+                            if imv['postingLocation']['address'] is not None:
+                                if 'name' in imv['postingLocation']['address']:
+                                    item['endereco'] = imv['postingLocation']['address']['name']
+
                     item['bairro'] = imv['postingLocation']['location']['name']
                     item['cidade'] = imv['postingLocation']['location']['parent']['name']
 
@@ -197,6 +207,7 @@ class WimoveisSpider(scrapy.Spider):
                             item['idade_imovel'] = imv['mainFeatures']['CFT5']['value']
 
                     item['valor_imovel'] = imv['priceOperationTypes'][0]['prices'][0]['formattedAmount']
+
                     if imv['expenses'] is not None:
                         item['valor_condominio'] = imv['expenses']['amount']
                     item['valor_mt2'] = ''
@@ -206,7 +217,7 @@ class WimoveisSpider(scrapy.Spider):
                 except BaseException as err:
                     log.error(f'Erro ao parsear o imv: {cod_imovel}')
                     log.error(f'Url do imv: {url_imv}')
-                    log.error(f'Erro: {err.args}')
+                    log.error(f'Erro: {err}', exc_info=True)
 
             self.page += 1
             url = f'https://www.wimoveis.com.br/{self.filtro_aplicado}{self.page}.html'
