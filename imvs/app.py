@@ -28,6 +28,9 @@ def crawl():
     elif FILTRO_WIMOVEIS is None:
         log.error('No arquivo config.py é necessário passar uma lista de filtros.')
         sys.exit(os.EX_IOERR)
+    elif FILTRO_DFIMOVEIS is None:
+        log.error('No arquivo config.py é necessário passar uma lista de filtros.')
+        sys.exit(os.EX_IOERR)
 
     for spider in SPIDERS:
         if spider.__name__ == 'DfimoveisSpider':
@@ -36,9 +39,9 @@ def crawl():
             filtro = FILTRO_WIMOVEIS
 
         for f in filtro:
-            log.debug(f'Crawling {spider.__name__} - {f}')
+            #log.debug(f'Crawling {spider.__name__} - {f}')
             yield runner.crawl(spider, filtro=f)
-        reactor.stop()
+    reactor.stop()
 
 
 def main():

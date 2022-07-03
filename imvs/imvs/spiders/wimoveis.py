@@ -155,6 +155,7 @@ class WimoveisSpider(scrapy.Spider):
 
     def parse(self, response, **kwargs):
         global cod_imovel, url_imv
+
         total_paginas = self.data["paging"]["totalPages"]
         log.info(f'Total de paginas: {total_paginas}')
 
