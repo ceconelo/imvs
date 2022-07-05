@@ -2687,3 +2687,60 @@
 2022-07-03 12:15:48.135 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 430782
 2022-07-03 12:15:49.146 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 573747
 2022-07-03 12:15:49.152 | INFO     | imvs.pipelines:close_spider:46 - Crawler finalizado.
+2022-07-05 10:40:17.543 | INFO     | __main__:<module>:53 - Iniciando o sistema.
+2022-07-05 10:40:17.642 | INFO     | imvs.spiders.wimoveis:__init__:29 - Crawler iniciado: wimoveis
+2022-07-05 10:40:17.643 | DEBUG    | imvs.spiders.wimoveis:__init__:53 - Bairro: aguas-claras
+2022-07-05 10:40:17.643 | DEBUG    | imvs.spiders.wimoveis:__init__:54 - Id Bairro: 80218
+2022-07-05 10:40:17.644 | INFO     | imvs.spiders.wimoveis:__init__:58 - Filtro aplicado: apartamentos-venda-aguas-claras-brasilia-pagina-
+2022-07-05 10:40:17.645 | INFO     | imvs.spiders.wimoveis:__init__:65 - Abrindo navegador...
+2022-07-05 10:40:29.922 | INFO     | imvs.spiders.wimoveis:__init__:141 - Navegando na página: https://www.wimoveis.com.br/apartamentos-venda-aguas-claras-brasilia-pagina--1.html
+2022-07-05 10:40:29.943 | INFO     | imvs.spiders.wimoveis:__init__:145 - Pagina carregada com sucesso!
+2022-07-05 10:40:31.828 | INFO     | imvs.spiders.wimoveis:__init__:150 - Requisição realizada com sucesso!
+2022-07-05 10:40:33.203 | INFO     | imvs.spiders.wimoveis:parse:160 - Total de paginas: 11
+2022-07-05 10:40:33.204 | INFO     | imvs.spiders.wimoveis:parse:166 - Pagina atual: 1
+2022-07-05 10:40:33.204 | INFO     | imvs.spiders.wimoveis:parse:167 - Parsing...
+2022-07-05 10:40:33.205 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2962633297
+2022-07-05 10:40:33.207 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2965430553
+2022-07-05 10:40:33.209 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2962691758
+2022-07-05 10:40:33.210 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2966478662
+2022-07-05 10:40:33.211 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2962947539
+2022-07-05 10:40:33.212 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2966200556
+2022-07-05 10:40:33.215 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2958913619
+2022-07-05 10:40:33.216 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2966662716
+2022-07-05 10:40:33.218 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2965300888
+2022-07-05 10:40:33.220 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2965587471
+2022-07-05 10:40:33.222 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2966842739
+2022-07-05 10:40:33.234 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2965492623
+2022-07-05 10:40:33.236 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2966810304
+2022-07-05 10:40:33.242 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2959926490
+2022-07-05 10:40:33.244 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2965982900
+2022-07-05 10:40:33.246 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2966106408
+2022-07-05 10:40:33.248 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2966788814
+2022-07-05 10:40:33.250 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2966817185
+2022-07-05 10:40:33.251 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2966810306
+2022-07-05 10:40:33.253 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2965622851
+2022-07-05 10:40:45.557 | INFO     | imvs.spiders.wimoveis:parse:226 - Navegando na página: https://www.wimoveis.com.br/apartamentos-venda-aguas-claras-brasilia-pagina-2.html
+2022-07-05 10:40:47.901 | INFO     | imvs.spiders.wimoveis:parse:230 - Pagina carregada com sucesso!
+2022-07-05 10:40:50.488 | INFO     | imvs.spiders.wimoveis:parse:240 - Requisição realizada com sucesso!
+2022-07-05 10:40:52.117 | INFO     | imvs.spiders.wimoveis:parse:166 - Pagina atual: 2
+2022-07-05 10:40:52.117 | INFO     | imvs.spiders.wimoveis:parse:167 - Parsing...
+2022-07-05 10:40:52.118 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2955379158
+2022-07-05 10:40:52.119 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2950756051
+2022-07-05 10:40:52.155 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2950755696
+2022-07-05 10:40:52.163 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2962113346
+2022-07-05 10:40:52.178 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2949735326
+2022-07-05 10:40:52.197 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2964505712
+2022-07-05 10:40:52.218 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2966810297
+2022-07-05 10:40:52.227 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2966839796
+2022-07-05 10:40:52.251 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2966524814
+2022-07-05 10:40:52.252 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2964513018
+2022-07-05 10:40:52.265 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2966556377
+2022-07-05 10:40:52.273 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2958164031
+2022-07-05 10:40:52.292 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2964366674
+2022-07-05 10:40:52.317 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2960246701
+2022-07-05 10:40:52.350 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2964886669
+2022-07-05 10:40:52.396 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2966347798
+2022-07-05 10:40:52.413 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2963901646
+2022-07-05 10:40:52.430 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2960114854
+2022-07-05 10:40:52.444 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2966123222
+2022-07-05 10:40:52.453 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2966501856

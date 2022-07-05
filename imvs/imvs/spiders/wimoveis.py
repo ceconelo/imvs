@@ -73,7 +73,7 @@ class WimoveisSpider(scrapy.Spider):
             'content-type': 'application/json',
             'X-Requested-With': 'XMLHttpRequest',
             'sec-ch-ua-mobile': '?0',
-            'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.53 Safari/537.36',
+            'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36',
             'sec-ch-ua-platform': '"Linux"',
             'Origin': 'https://www.wimoveis.com.br',
             'Sec-Fetch-Site': 'same-origin',
@@ -151,6 +151,7 @@ class WimoveisSpider(scrapy.Spider):
             self.data = json.loads(self.response.text)
         else:
             log.error(f'Erro ao realizar requisição! Codigo: {self.response.status_code}')
+            self.web.close_driver()
             CloseSpider('Erro ao realizar requisição!')
 
     def parse(self, response, **kwargs):

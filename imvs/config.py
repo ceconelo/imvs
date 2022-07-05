@@ -3,7 +3,7 @@ from imvs.spiders.wimoveis import WimoveisSpider
 
 SPIDERS = [
     WimoveisSpider,
-    DfimoveisSpider,
+    # DfimoveisSpider,
 
 ]
 
