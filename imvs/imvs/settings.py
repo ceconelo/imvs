@@ -11,6 +11,7 @@ BOT_NAME = 'imvs'
 
 SPIDER_MODULES = ['imvs.spiders']
 NEWSPIDER_MODULE = 'imvs.spiders'
+URLLENGTH_LIMIT = 5000
 
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent

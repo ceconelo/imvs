@@ -19,6 +19,7 @@ class DefaultItem(scrapy.Item):
     area_privativa = scrapy.Field()
     area_total = scrapy.Field()
     valor_condominio = scrapy.Field()
+    valor_iptu = scrapy.Field()
     valor_mt2 = scrapy.Field()
     url = scrapy.Field()
     idade_imovel = scrapy.Field()

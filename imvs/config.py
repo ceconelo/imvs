@@ -1,10 +1,11 @@
 from imvs.spiders.dfimoveis import DfimoveisSpider
 from imvs.spiders.wimoveis import WimoveisSpider
+from imvs.spiders.vivareal import VivarealSpider
 
 SPIDERS = [
     WimoveisSpider,
-    # DfimoveisSpider,
-
+    DfimoveisSpider,
+    VivarealSpider,
 ]
 
 '''
@@ -12,8 +13,8 @@ Informe abaixo todos os filtos que vai utilizar:
 Basta fazer o filtro no site, copiar o filtro e colar baixo
 '''
 FILTRO_DFIMOVEIS = [
-    #'venda/df/todos/asa-norte/apartamento',
-    'venda/df/aguas-claras/apartamento',
+    'venda/df/todos/asa-norte/apartamento',
+    #'venda/df/aguas-claras/apartamento',
     # 'venda/df/todos/apartamento',
     # 'venda/df/todos/kitnet'
 ]
@@ -29,4 +30,8 @@ FILTRO_WIMOVEIS = [
     'apartamentos-venda-aguas-claras-brasilia.html',
     # 'apartamentos-venda-cruzeiro-brasilia.html',
 ]
+FILTRO_VIVAREAL = [
+    'venda/distrito-federal/brasilia/apartamento_residencial/', # Somente esse filtro funciona
+]
+
 
