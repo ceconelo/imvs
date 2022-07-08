@@ -9,7 +9,7 @@ from scrapy.crawler import CrawlerRunner
 from scrapy.utils.project import get_project_settings
 from scrapy.utils.log import configure_logging
 
-from config import FILTRO_WIMOVEIS, FILTRO_DFIMOVEIS, FILTRO_VIVAREAL, SPIDERS
+from config import FILTRO_WIMOVEIS, FILTRO_DFIMOVEIS, FILTRO_VIVAREAL, FILTRO_OLX, SPIDERS
 
 PATH = os.path.abspath(os.path.join(os.path.dirname(__file__), '{}'))
 log.add(PATH.format('app.log'))
@@ -34,6 +34,9 @@ def crawl():
     elif FILTRO_VIVAREAL is None:
         log.error('No arquivo config.py é necessário passar uma lista de filtros.')
         sys.exit(os.EX_IOERR)
+    elif FILTRO_OLX is None:
+        log.error('No arquivo config.py é necessário passar uma lista de filtros.')
+        sys.exit(os.EX_IOERR)
 
     for spider in SPIDERS:
         if spider.__name__ == 'DfimoveisSpider':
@@ -42,6 +45,8 @@ def crawl():
             filtro = FILTRO_WIMOVEIS
         elif spider.__name__ == 'VivarealSpider':
             filtro = FILTRO_VIVAREAL
+        elif spider.__name__ == 'OlximoveisSpider':
+            filtro = FILTRO_OLX
 
         for f in filtro:
             #log.debug(f'Crawling {spider.__name__} - {f}')

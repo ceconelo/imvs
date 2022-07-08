@@ -103,5 +103,5 @@ class VivarealSpider(scrapy.Spider):
         sleep(2)
         if page_from < total_imvs:
             self.offset = page_from
-            log.debug(f'offset: {self.offset}')
+            #log.debug(f'offset: {self.offset}')
             yield scrapy.Request(url=self.endpoint.format(str(self.offset)), headers=self.headers, callback=self.parse)

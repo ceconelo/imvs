@@ -1,11 +1,13 @@
 from imvs.spiders.dfimoveis import DfimoveisSpider
 from imvs.spiders.wimoveis import WimoveisSpider
 from imvs.spiders.vivareal import VivarealSpider
+from imvs.spiders.olximoveis import OlximoveisSpider
 
 SPIDERS = [
     WimoveisSpider,
     DfimoveisSpider,
     VivarealSpider,
+    OlximoveisSpider
 ]
 
 '''
@@ -32,6 +34,11 @@ FILTRO_WIMOVEIS = [
 ]
 FILTRO_VIVAREAL = [
     'venda/distrito-federal/brasilia/apartamento_residencial/', # Somente esse filtro funciona
+]
+FILTRO_OLX = [
+    #'imoveis/venda/apartamentos',
+    #'distrito-federal-e-regiao/brasilia/imoveis/venda/apartamentos',
+    'distrito-federal-e-regiao/outras-cidades/imoveis/venda/apartamentos'
 ]
 
 
