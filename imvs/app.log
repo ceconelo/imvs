@@ -1,0 +1,45 @@
+2022-07-08 17:58:07.766 | INFO     | __main__:<module>:63 - Iniciando o sistema.
+2022-07-08 17:58:07.847 | INFO     | imvs.spiders.wimoveis:__init__:30 - Crawler iniciado: wimoveis
+2022-07-08 17:58:07.848 | DEBUG    | imvs.spiders.wimoveis:__init__:53 - Bairro: aguas-claras
+2022-07-08 17:58:07.848 | DEBUG    | imvs.spiders.wimoveis:__init__:54 - Id Bairro: 80218
+2022-07-08 17:58:07.849 | INFO     | imvs.spiders.wimoveis:__init__:58 - Filtro aplicado: apartamentos-venda-aguas-claras-brasilia-pagina-
+2022-07-08 17:58:07.866 | INFO     | imvs.spiders.wimoveis:__init__:65 - Abrindo navegador...
+2022-07-08 17:58:50.358 | INFO     | imvs.spiders.wimoveis:__init__:141 - Navegando na página: https://www.wimoveis.com.br/apartamentos-venda-aguas-claras-brasilia-pagina--1.html
+2022-07-08 17:58:50.381 | INFO     | imvs.spiders.wimoveis:__init__:145 - Pagina carregada com sucesso!
+2022-07-08 17:58:57.171 | INFO     | imvs.spiders.wimoveis:__init__:150 - Requisição realizada com sucesso!
+2022-07-08 17:59:05.171 | INFO     | imvs.spiders.wimoveis:parse:161 - Total de paginas: 11
+2022-07-08 17:59:05.173 | INFO     | imvs.spiders.wimoveis:parse:167 - Pagina atual: 1
+2022-07-08 17:59:05.173 | INFO     | imvs.spiders.wimoveis:parse:168 - Parsing...
+2022-07-08 17:59:05.174 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2962633297
+2022-07-08 17:59:05.176 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2965430553
+2022-07-08 17:59:05.177 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2962947539
+2022-07-08 17:59:05.178 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2966478662
+2022-07-08 17:59:05.179 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2953840823
+2022-07-08 17:59:05.180 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2965492623
+2022-07-08 17:59:05.181 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2965300888
+2022-07-08 17:59:05.182 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2966810306
+2022-07-08 17:59:05.185 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2966925777
+2022-07-08 17:59:05.186 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2965982900
+2022-07-08 17:59:05.188 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2966842739
+2022-07-08 17:59:05.190 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2966788814
+2022-07-08 17:59:05.191 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2958913619
+2022-07-08 17:59:05.192 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2966662716
+2022-07-08 17:59:05.193 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2966200556
+2022-07-08 17:59:05.194 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2964505712
+2022-07-08 17:59:05.195 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2966106408
+2022-07-08 17:59:05.196 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2965622851
+2022-07-08 17:59:05.197 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2966810304
+2022-07-08 17:59:05.198 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 2965587471
+2022-07-08 17:59:25.096 | INFO     | __main__:<module>:63 - Iniciando o sistema.
+2022-07-08 17:59:25.191 | INFO     | imvs.spiders.olximoveis:__init__:15 - Crawler iniciado: olximoveis
+2022-07-08 17:59:25.191 | INFO     | imvs.spiders.olximoveis:__init__:22 - Filtro aplicado: distrito-federal-e-regiao/brasilia/imoveis/venda/apartamentos
+2022-07-08 17:59:25.431 | INFO     | imvs.spiders.olximoveis:start_requests:35 - Acessando: https://df.olx.com.br/distrito-federal-e-regiao/brasilia/imoveis/venda/apartamentos?o=1
+2022-07-08 17:59:29.637 | INFO     | imvs.spiders.olximoveis:parse:39 - 1 - 50 de 13.604 resultados
+2022-07-08 17:59:29.689 | INFO     | imvs.spiders.olximoveis:parse:50 - Acessando: https://df.olx.com.br/distrito-federal-e-regiao/brasilia/imoveis/venda/apartamentos?o=2
+2022-07-08 17:59:30.171 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 1030009138
+2022-07-08 17:59:31.746 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 1055589977
+2022-07-08 17:59:32.932 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 1055590342
+2022-07-08 17:59:33.510 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 1055590704
+2022-07-08 17:59:35.140 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 1055590712
+2022-07-08 17:59:36.084 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 1055590752
+2022-07-08 17:59:37.552 | INFO     | imvs.pipelines:process_item:33 - Um novo item foi processado: Cod. Imóvel - 1055591228

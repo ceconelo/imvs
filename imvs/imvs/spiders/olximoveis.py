@@ -1,5 +1,4 @@
 from loguru import logger as log
-import scraper_helper as helper
 import json
 
 import scrapy
@@ -30,30 +29,6 @@ class OlximoveisSpider(scrapy.Spider):
         self.show_result = 0
         self.cards_imoveis = '//ul[@id="ad-list"]/li//a[@data-lurker-detail="list_id"]'
         self.url_imv = './@href'
-        # self.anunciante = '//div[@id="miniprofile"]/div/div/div/div[2]/div[2]/span/text()'
-        # self.data_publicacao = '((//*[contains(text(), "Publicado em") ])[2]/text())[2]'
-        # self.endereco = '//dt[contains(text(), "Logradouro")]/following-sibling::dd/text()'
-        # self.bairro = '//dt[contains(text(), "Bairro")]/following-sibling::dd/text()'
-        # self.cidade = '//dt[contains(text(), "Município")]/following-sibling::dd/text()'
-        # self.quartos = '//dt[contains(text(), "Quartos")]/following-sibling::a/text()'
-        # sefl.banheiros = '//dt[contains(text(), "Banheiros")]/following-sibling::dd/text()'
-        # self.garagem = '//dt[contains(text(), "Vagas na garagem")]/following-sibling::dd/text()'
-        # self.area_privativa = '//dt[contains(text(), "Área útil")]/following-sibling::dd/text()'
-        # self.valor_imovel = '(//h2[contains(text(), "R$")])[1]/text()'
-
-        # self.cod_imovel = '(//input[@id="idDoImovel"])[1]/@value'
-        #
-        # self.creci = '(//input[@id="creciDoAnunciante"])[1]/@value'
-        # self.atualizacao = '//*[contains(text(), " Última Atualização:")]/small/text()'
-        #
-        # self.suites = '//*[contains(text(), "Suítes:")]/small/text()'
-        #
-        #
-        # self.area_total = '//*[contains(text(), "Área Total:")]/small/text()'
-        # self.valor_condominio = '(//*[contains(text(), "Condomínio R$:")]/small/text())[1]'
-        # self.valor_mt2 = '(//*[contains(text(), "Valor R$ /m²:")]/small/text())[1]'
-
-        # self.no_imvs = '//p[@class="sem-resultado"]'
         self.resultado_pesquisa = '//span[contains(text(), "resultados")]/text()'
 
     def start_requests(self):
@@ -114,9 +89,3 @@ class OlximoveisSpider(scrapy.Spider):
 
         yield item
 
-    def handle_error(self, failure):
-        if failure.check(HttpError):
-            response = failure.value.response
-            if response.status == 429:  # Too Many Requests
-                # open_in_browser(response)  # for debugging 429
-                raise CloseSpider('Banned?')  # Comment out for proxies
