@@ -61,30 +61,14 @@ class WimoveisSpider(scrapy.Spider):
         self.url_base = f'https://www.wimoveis.com.br/{self.filtro_aplicado}-{self.page}.html'
         self.endpoint = 'https://www.wimoveis.com.br/rplis-api/postings'
 
-        self.scraper = cloudscraper.create_scraper()
+        self.scraper = cloudscraper.create_scraper(delay=10, browser={'custom': 'Imvs'})
         log.info('Abrindo navegador...')
         self.web = BrowserV2()
 
         self.headers = {
-            # 'Host': 'www.wimoveis.com.br',
-            # 'Connection': 'keep-alive',
-            # 'sec-ch-ua': '".Not/A)Brand";v="99", "Google Chrome";v="103", "Chromium";v="103"',
-            # 'Accept': '*/*',
             'content-type': 'application/json',
-            # 'X-Requested-With': 'XMLHttpRequest',
-            # 'sec-ch-ua-mobile': '?0',
-            'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.53 Safari/537.36',
-            # 'sec-ch-ua-platform': '"Linux"',
-            #'Origin': 'https://www.wimoveis.com.br',
-            # 'Sec-Fetch-Site': 'same-origin',
-            # 'Sec-Fetch-Mode': 'cors',
-            # 'Sec-Fetch-Dest': 'empty',
-            #'Referer': 'https://www.wimoveis.com.br/',
-            # 'Accept-Encoding': 'gzip, deflate, br',
-            # 'Accept-Language': 'en-US,en;q=0.9',
-            # Requests sorts cookies= alphabetically
-            # 'Cookie': '__cfruid=a9d134791e650d89ccc9821c6d450d5c53a183b8-1656674815; _gcl_au=1.1.751529199.1656674824; sessionId=7951856b-5325-49f2-bdb9-0d9f6ed72866; _ga=GA1.3.1202708542.1656674827; _gid=GA1.3.839738699.1656674827; _dc_gtm_UA-466321-1=1; __cf_bm=rV3nID.hwCc2UwHzIvYMWcy1Li84iFJiZ17AMNcQZ6I-1656674829-0-AYNoPdiVqML+BxTee1RkLkh0+10z8oh/rCxyOPnBQ/tJvp0ULR/Nt1e7hoCGNKShKO6sVBNJbJYE0kTMNO3CnwSLGVeBVLkwzuJlDSIA7RzGEtLnVeEltALEc4V7GBvobP3qUgf6eYqgdqXLNGnoC6zhPP+/5srdR0xzOK0a4y6TVe5iJ1CBOFaKGco9BB3iPA==; __gads=ID=13ee3e34f68a5a64:T=1656674836:S=ALNI_MaO1Rcw5ifjhBvlvidy_k9lsotrWA; __gpi=UID=0000073b4fddc2ea:T=1656674836:RT=1656674836:S=ALNI_MZC3Q6ySNhzWbLnqq3kCmaMVEs0OA; _hjSessionUser_629215=eyJpZCI6IjQ1ODlmNDRlLWE4NWEtNTc5My04MzBjLWUwOWJkMWQyNDgyMiIsImNyZWF0ZWQiOjE2NTY2NzQ4NjQ2NDQsImV4aXN0aW5nIjpmYWxzZX0=; _hjFirstSeen=1; _hjIncludedInSessionSample=1; _hjSession_629215=eyJpZCI6IjFjZWY5MWRhLTg3NGEtNDY0Ny1hMWMwLTM2NmRmZTU1ZWE0ZSIsImNyZWF0ZWQiOjE2NTY2NzQ4NjQ3MDMsImluU2FtcGxlIjp0cnVlfQ==; _hjAbsoluteSessionInProgress=0; _fbp=fb.2.1656674864917.960998538; JSESSIONID=9B060A9303F3EEE907C796FE8F450277',
-        }
+            'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36',
+         }
 
         self.payload = json.dumps({
             'q': None,
